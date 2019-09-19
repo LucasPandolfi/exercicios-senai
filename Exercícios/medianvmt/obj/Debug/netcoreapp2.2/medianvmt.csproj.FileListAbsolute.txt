@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\Exercícios\medianvmt\bin\Debug\netcoreapp2.2\medianvmt.deps.json
+C:\Users\50345891848\Documents\Exercícios\medianvmt\bin\Debug\netcoreapp2.2\medianvmt.runtimeconfig.json
+C:\Users\50345891848\Documents\Exercícios\medianvmt\bin\Debug\netcoreapp2.2\medianvmt.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\Exercícios\medianvmt\bin\Debug\netcoreapp2.2\medianvmt.dll
+C:\Users\50345891848\Documents\Exercícios\medianvmt\bin\Debug\netcoreapp2.2\medianvmt.pdb
+C:\Users\50345891848\Documents\Exercícios\medianvmt\obj\Debug\netcoreapp2.2\medianvmt.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\Exercícios\medianvmt\obj\Debug\netcoreapp2.2\medianvmt.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\Exercícios\medianvmt\obj\Debug\netcoreapp2.2\medianvmt.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\Exercícios\medianvmt\obj\Debug\netcoreapp2.2\medianvmt.AssemblyInfo.cs
+C:\Users\50345891848\Documents\Exercícios\medianvmt\obj\Debug\netcoreapp2.2\medianvmt.dll
+C:\Users\50345891848\Documents\Exercícios\medianvmt\obj\Debug\netcoreapp2.2\medianvmt.pdb
