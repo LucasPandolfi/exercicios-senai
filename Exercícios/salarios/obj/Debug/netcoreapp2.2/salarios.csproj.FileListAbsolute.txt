@@ -2,3 +2,14 @@ C:\Users\50345891848\Documents\Exercícios\salarios\obj\Debug\netcoreapp2.2\sala
 C:\Users\50345891848\Documents\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.csproj.CoreCompileInputs.cache
 C:\Users\50345891848\Documents\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.AssemblyInfoInputs.cache
 C:\Users\50345891848\Documents\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\bin\Debug\netcoreapp2.2\salarios.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\bin\Debug\netcoreapp2.2\salarios.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\bin\Debug\netcoreapp2.2\salarios.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\bin\Debug\netcoreapp2.2\salarios.dll
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\bin\Debug\netcoreapp2.2\salarios.pdb
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.dll
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\salarios\obj\Debug\netcoreapp2.2\salarios.pdb

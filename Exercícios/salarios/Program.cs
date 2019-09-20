@@ -6,17 +6,23 @@ namespace salarios
     {
         static void Main(string[] args)
         {
-            double num1;
- 
-            Console.Write("Insira o salário do funcionário");
-            num1 = double.Parse(Console.RedLine());
+            double salario;
+            double calculo;
+
+            Console.Write("Insira o salário do funcionário: ");
+            salario = double.Parse(Console.ReadLine());
+
+            if(calculo == *){
+                Console.Write($"{0.3} * {salario} = {0.3 * salario}");
+            } 
+           media = calculo * 0,3 + salario;
              
 
-            if(num1 <=500){
-                Console.Write("Você tem direito a um reajuste de 30% no seu salário");
+            if(salario <500){
+                Console.Write("Você tem direito a um reajuste de 30% no seu salário!");
             } 
-            else if(num1 > 500);{
-                Console.Write("Você não tem direito ao reajuste de 30%");
+            else if(salario >= 500){
+                Console.Write("Você não tem direito ao reajuste de 30%!");
             }
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50345891848\\Documents\\Exercícios\\salarios\\salarios.csproj": {}
+    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50345891848\\Documents\\Exercícios\\salarios\\salarios.csproj": {
+    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50345891848\\Documents\\Exercícios\\salarios\\salarios.csproj",
+        "projectUniqueName": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj",
         "projectName": "salarios",
-        "projectPath": "C:\\Users\\50345891848\\Documents\\Exercícios\\salarios\\salarios.csproj",
+        "projectPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj",
         "packagesPath": "C:\\Users\\50345891848\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50345891848\\Documents\\Exercícios\\salarios\\obj\\",
+        "outputPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
