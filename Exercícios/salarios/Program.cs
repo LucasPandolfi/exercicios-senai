@@ -12,7 +12,7 @@ namespace salarios
 
             do{
             Console.Write("Insira o salário atual do funcionário: "); //nesta linha estou mostrando textos para o usuario
-            salario_atual = double.Parse(Console.ReadLine()); //nesta linha estou lendo o salario colocado pelo usuario via teclado
+            salario_atual = double.Parse(Console.ReadLine()); //nesta linha estou pegando o salario colocado pelo usuario via teclado e armazenando na minha variavel
 
             salario_reajustado = salario_atual; 
             if(salario_atual < 500){

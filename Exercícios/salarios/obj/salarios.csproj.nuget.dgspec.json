@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj": {}
+    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj": {
+    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj",
+        "projectUniqueName": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj",
         "projectName": "salarios",
-        "projectPath": "C:\\Users\\lucas\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Documents\\exercicios-senai\\Exercícios\\salarios\\obj\\",
+        "projectPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\salarios.csproj",
+        "packagesPath": "C:\\Users\\50345891848\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\Exercícios\\salarios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\50345891848\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
