@@ -6,24 +6,28 @@ namespace salarios
     {
         static void Main(string[] args)
         {
-            double salario;
-            double calculo;
+            double salario_atual = 0;
+            double salario_reajustado = 0;
+            int op = 0;
 
-            Console.Write("Insira o salário do funcionário: ");
-            salario = double.Parse(Console.ReadLine());
+            do{
+            Console.Write("Insira o salário atual do funcionário: "); //nesta linha estou mostrando textos para o usuario
+            salario_atual = double.Parse(Console.ReadLine()); //nesta linha estou lendo o salario colocado pelo usuario via teclado
 
-            if(calculo == *){
-                Console.Write($"{0.3} * {salario} = {0.3 * salario}");
+            salario_reajustado = salario_atual; 
+            if(salario_atual < 500){
+                salario_reajustado= 1.3 * salario_atual;
+
+                Console.Write("Você possui reajuste. Seu salário reajustado é:");
             } 
-           media = calculo * 0,3 + salario;
-             
-
-            if(salario <500){
-                Console.Write("Você tem direito a um reajuste de 30% no seu salário!");
+            else
+            {
+                Console.Write("Você não possui reajuste. Seu salário permanece a quantia de: ");
             } 
-            else if(salario >= 500){
-                Console.Write("Você não tem direito ao reajuste de 30%!");
-            }
+            Console.Write(salario_reajustado);
+            Console.Write("\n Você quer uma nova operação? Se sim, digite qualquer número exceto 0. Para encerrar digite 0: \n"); 
+            op = int.Parse(Console.ReadLine());
+        }while(op != 0);
         }
     }
-}
+ }
