@@ -4,24 +4,30 @@ namespace menu_calculador
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             //variaveis de entrada
 
-            string quadrado = "1";
-            string triangulo = "2";
-            string circulo = "3";
-            string trapezio = "4";
-            string retangulo = "5";
-            string losango = "6";
-            string formas = "";
+            short formas = 0;
             char op;
-        do{ 
-            Console.WriteLine("Figuras geométricas e suas medidas. Selecione a figura desejada: ");
-            Console.Write("1. Quadrado, 2. Triângulo, 3. círculo, 4. trapézio, 5. retângulo, 6. losango: ");
-            formas = Console.ReadLine();
 
-            if(formas == "1"){
+            //***********************************entrada de dados******************************************************
+        do{ 
+            do{ 
+                Console.WriteLine("Figuras geométricas e suas medidas. Selecione a figura desejada: ");
+                Console.Write("1. Quadrado, 2. Triângulo, 3. círculo, 4. trapézio, 5. retângulo, 6. losango: ");
+                formas = short.Parse(Console.ReadLine());
+                if(formas<1 || formas>6){
+                    Console.WriteLine("opção Inválida");
+                }
+            }while( formas < 1 || formas > 6);
+
+            //************************************processamento de dados e saida*****************************************
+
+            //************************************area quadrado***********************************************
+
+            if(formas == 1){
                double lado_quadrado = 0;
 
                 Console.Write("medida do lado :");
@@ -29,7 +35,10 @@ namespace menu_calculador
                 double resultado_quadrado = lado_quadrado * lado_quadrado;
                 Console.Write("Área do quadrado = " + resultado_quadrado);
             } 
-            else if(formas == "2"){
+
+            //************************************area triangulo***********************************************
+
+            else if(formas == 2){
                 double base_triangulo = 0;
                 double altura_triangulo = 0;
 
@@ -40,7 +49,10 @@ namespace menu_calculador
                 double resultado_triangulo = base_triangulo * altura_triangulo;
                 Console.Write("Área do triângulo = " + resultado_triangulo);
             }
-            else if(formas == "3"){ 
+
+            //************************************area circulo***********************************************
+
+            else if(formas == 3){ 
                 double raio = 0;
 
                 Console.Write("medida do raio : ");
@@ -50,7 +62,9 @@ namespace menu_calculador
                 Console.Write("Área do círculo = " + resultado_raio);
                 }
 
-            else if(formas == "4"){
+                //************************************area trapezio***********************************************
+
+            else if(formas == 4){
                 double base_maior = 0;
                 double base_menor = 0;
                 double altura_trapezio = 0;
@@ -70,7 +84,9 @@ namespace menu_calculador
                 Console.Write("Área do trapézio = " + resultado_trapezio);
                 }
 
-            else if(formas == "5"){
+                //************************************area retangulo***********************************************
+
+            else if(formas == 5){
                 double base_retangulo = 0;
                 double altura_retangulo = 0;
                 double resultado2 = 0;
@@ -83,7 +99,9 @@ namespace menu_calculador
                 Console.Write("Área do retangulo = " + resultado2);
                 }
 
-                else if(formas == "6"){
+                //************************************area losango***********************************************
+
+                else if(formas == 6){
                     double diagonal_maior;
                     double diagonal_menor;
                     double resultado_diagonal;
@@ -95,6 +113,7 @@ namespace menu_calculador
                     resultado_diagonal = (diagonal_maior * diagonal_menor) / 2;
                     Console.Write("Área do losango = " + resultado_diagonal);
                 }
+
                 Console.Write("\n Deseja voltar do ínicio e escolher outra figura geométrica? Se sim, digite qualquer caractere. Se não digite N ou n: \n");
                 op = char.Parse(Console.ReadLine());
         }while(op !='N' && op !='n');
