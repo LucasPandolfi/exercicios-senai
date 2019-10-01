@@ -1,4 +1,5 @@
 using System;
+
 namespace mcbonalds
 {
     public class Cliente
@@ -14,9 +15,10 @@ namespace mcbonalds
         //construtores
         public Cliente(string Nome, string Telefone, string Email)
         {
-            this.Nome = Nome;
-            this.Telefone = Telefone;
-            this.Email = Email;
+            // this.Nome = Nome;
+            // this.Telefone = Telefone;
+            // this.Email = Email;
+            this.Nome = Console.ReadLine(); 
         }
     }
 }
