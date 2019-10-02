@@ -20,32 +20,15 @@ namespace MateODragao {
                 switch (opcaoJogador) {
                     case "1":
                         Console.Clear ();
-                        Guerreiro guerreiro = new Guerreiro ();
-                        guerreiro.Nome = "Zezinho";
-                        guerreiro.Sobrenome = "Stock";
-                        guerreiro.CidadeNatal = "Carcassone";
-                        guerreiro.DataNascimento = DateTime.Parse ("07/01/500");
-                        guerreiro.FerramentaAtaque = "Adaga";
-                        guerreiro.FerramentaProtecao = "Broquel";
-                        guerreiro.Forca = 2;
-                        guerreiro.Destreza = 3;
-                        guerreiro.Inteligencia = 3;
-                        guerreiro.Vida = 25;
+                        Guerreiro guerreiro = CriarGuerreiro ();
 
-                        Dragao dragao = new Dragao ();
-                        dragao.Nome = "smaugh";
-                        dragao.Forca = 5;
-                        dragao.Destreza = 1;
-                        dragao.Inteligencia = 3;
-                        dragao.Vida = 300;
+                        Dragao dragao = CriarDragao();
 
                         /* INICIO - primeiro dialogo */
-                        Console.WriteLine ($"{guerreiro.Nome.ToUpper()}: Lagarto miserável, vim acabar com sua raça e pegar suas escamas!!");
-                        Console.WriteLine ($"{dragao.Nome.ToUpper()}: Humano tolo, irá morrer por causa de sua ganância!!");
+                        CriarDialogo (guerreiro.Nome, $"{dragao.Nome}, Lagarto miserável, vim acabar com sua raça e pegar suas escamas!!");
+                        CriarDialogo (dragao.Nome, " Humano tolo, irá morrer por causa de sua ganância!!");
 
-                        Console.WriteLine ();
-                        Console.WriteLine ("Aperte ENTER para prosseguir");
-                        Console.ReadLine ();
+                        FinalizarDialogo ();
 
                         /* FIM - primeiro dialogo */
 
@@ -56,9 +39,7 @@ namespace MateODragao {
 
                         Console.WriteLine ("Tobi: tio tobirama vai lutar heheheheheheh...!!");
 
-                        Console.WriteLine ();
-                        Console.WriteLine ("Aperte ENTER para prosseguir");
-                        Console.ReadLine ();
+                        FinalizarDialogo ();
 
                         /* FIM - segundo dialogo */
                         Console.Clear ();
@@ -88,6 +69,7 @@ namespace MateODragao {
                                         dragao.Vida = dragao.Vida - (poderAtaqueGuerreiro + 5); //podemos apagar o dragao.vida e adicionar o sinal de - antes do sinal de igual. o resultado sera o mesmo.
                                         Console.WriteLine ($"HP Dragão: {dragao.Vida}");
                                         Console.WriteLine ($"HP Guerreiro: {guerreiro.Vida}");
+                                        FinalizarDialogo();
                                     } else {
                                         Console.WriteLine ($"{dragao.Nome.ToUpper()}: Errrrrou, vê se compra um binoculos novo!!");
                                     }
@@ -102,9 +84,7 @@ namespace MateODragao {
 
                         }
 
-                        Console.WriteLine ();
-                        Console.WriteLine ("Aperte ENTER para prosseguir");
-                        Console.ReadLine ();
+                        FinalizarDialogo ();
 
                         while (guerreiro.Vida > 0 && dragao.Vida > 0 && jogadorNaoCorreu) {
                             Console.Clear ();
@@ -120,15 +100,12 @@ namespace MateODragao {
                                 guerreiro.Vida -= dragao.Forca; //podemos apagar o dragao.vida e adicionar o sinal de - antes do sinal de igual. o resultado sera o mesmo.
                                 Console.WriteLine ($"HP Dragão: {dragao.Vida}");
                                 Console.WriteLine ($"HP Guerreiro: {guerreiro.Vida}");
-                            } 
-                            else 
-                            {
+                                FinalizarDialogo();
+                            } else {
                                 Console.WriteLine ($"{guerreiro.Nome.ToUpper()}: Errrrrou, chola mais lagarto senpai!!");
                             }
 
-                            Console.WriteLine ();
-                            Console.WriteLine ("Aperte ENTER para prosseguir");
-                            Console.ReadLine ();
+                            FinalizarDialogo ();
 
                             Console.Clear ();
 
@@ -148,21 +125,29 @@ namespace MateODragao {
 
                                     if (guerreiroDestrezaTotal > dragaoDestrezaTotal) {
                                         Console.WriteLine ($"{guerreiro.Nome.ToUpper()}: Sinta o gosto da minha adaga lagarto imundooo");
-                                        dragao.Vida = dragao.Vida - (poderAtaqueGuerreiro + 5); //podemos apagar o dragao.vida e adicionar o sinal de - antes do sinal de igual. o resultado sera o mesmo.
+                                        dragao.Vida = dragao.Vida - (poderAtaqueGuerreiro + 5);
                                         Console.WriteLine ($"HP Dragão: {dragao.Vida}");
                                         Console.WriteLine ($"HP Guerreiro: {guerreiro.Vida}");
+                                        FinalizarDialogo();
                                     } else {
                                         Console.WriteLine ($"{dragao.Nome.ToUpper()}: Errrrrou, vê se compra um binoculos novo!!");
                                     }
 
                                     break;
                                 case "2":
-                                    Console.WriteLine ($"{guerreiro.Nome.ToUpper()}: Se fodeu, flw vlw");
+                                    Console.WriteLine ($"{guerreiro.Nome.ToUpper()}: Se ferrou, flw vlw");
                                     Console.WriteLine ($"{dragao.Nome.ToUpper()}: GG IZI");
                                     jogadorNaoCorreu = false;
                                     break;
                             }
 
+                        }
+
+                        if (guerreiro.Vida <= 0) {
+                            Console.WriteLine ("Você perdeu!!");
+                        }
+                        if (dragao.Vida <= 0) {
+                            Console.WriteLine ("Você venceu!");
                         }
 
                         break;
@@ -177,5 +162,46 @@ namespace MateODragao {
 
             } while (jogadorNaoDesistiu);
         }
+
+        public static void CriarDialogo (string nome, string frase) {
+
+            Console.WriteLine ($"{nome.ToUpper()}: {frase}");
+        }
+
+        public static void FinalizarDialogo () {
+            Console.WriteLine ();
+            Console.WriteLine ("Aperte ENTER para prosseguir");
+            Console.ReadLine ();
+            Console.Clear ();
+        }
+
+        public static Guerreiro CriarGuerreiro () {
+            Guerreiro guerreiro = new Guerreiro ();
+            guerreiro.Nome = "Zezinho";
+            guerreiro.Sobrenome = "Stock";
+            guerreiro.CidadeNatal = "Carcassone";
+            guerreiro.DataNascimento = DateTime.Parse ("07/01/500");
+            guerreiro.FerramentaAtaque = "Adaga";
+            guerreiro.FerramentaProtecao = "Broquel";
+            guerreiro.Forca = 2;
+            guerreiro.Destreza = 3;
+            guerreiro.Inteligencia = 3;
+            guerreiro.Vida = 25;
+
+            return guerreiro;
+        }
+
+        public static Dragao CriarDragao () 
+        {
+            Dragao dragao = new Dragao ();
+            dragao.Nome = "smaugh";
+            dragao.Forca = 5;
+            dragao.Destreza = 1;
+            dragao.Inteligencia = 3;
+            dragao.Vida = 300;
+
+            return dragao;
+        }
+
     }
 }
