@@ -75,14 +75,9 @@ namespace MateODragao {
                                         dragao.Vida = dragao.Vida - (poderAtaqueGuerreiro + 5); //podemos apagar o dragao.vida e adicionar o sinal de - antes do sinal de igual. o resultado sera o mesmo.
                                         Console.WriteLine ($"HP Dragão: {dragao.Vida}");
                                         Console.WriteLine ($"HP Guerreiro: {guerreiro.Vida}");
-<<<<<<< HEAD
-                                        FinalizarDialogo();
-                                    } else {
-=======
                                     } 
                                     else 
                                     {
->>>>>>> 71e3d326c5d89278ba7fd2d954b083bb32ccb851
                                         Console.WriteLine ($"{dragao.Nome.ToUpper()}: Errrrrou, vê se compra um binoculos novo!!");
                                     }
 

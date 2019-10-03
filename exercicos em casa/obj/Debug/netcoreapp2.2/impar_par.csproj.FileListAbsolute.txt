@@ -1,4 +1,0 @@
-C:\Users\lucas\Documents\exercicos em casa\obj\Debug\netcoreapp2.2\impar_par.csprojAssemblyReference.cache
-C:\Users\lucas\Documents\exercicos em casa\obj\Debug\netcoreapp2.2\impar_par.csproj.CoreCompileInputs.cache
-C:\Users\lucas\Documents\exercicos em casa\obj\Debug\netcoreapp2.2\impar_par.AssemblyInfoInputs.cache
-C:\Users\lucas\Documents\exercicos em casa\obj\Debug\netcoreapp2.2\impar_par.AssemblyInfo.cs
