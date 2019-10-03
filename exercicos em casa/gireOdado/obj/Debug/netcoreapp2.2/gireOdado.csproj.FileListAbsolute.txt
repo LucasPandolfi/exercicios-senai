@@ -1,0 +1,11 @@
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\bin\Debug\netcoreapp2.2\gireOdado.deps.json
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\bin\Debug\netcoreapp2.2\gireOdado.runtimeconfig.json
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\bin\Debug\netcoreapp2.2\gireOdado.runtimeconfig.dev.json
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\bin\Debug\netcoreapp2.2\gireOdado.dll
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\bin\Debug\netcoreapp2.2\gireOdado.pdb
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\obj\Debug\netcoreapp2.2\gireOdado.csprojAssemblyReference.cache
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\obj\Debug\netcoreapp2.2\gireOdado.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\obj\Debug\netcoreapp2.2\gireOdado.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\obj\Debug\netcoreapp2.2\gireOdado.AssemblyInfo.cs
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\obj\Debug\netcoreapp2.2\gireOdado.dll
+C:\Users\lucas\Documents\exercicos em casa\gireOdado\obj\Debug\netcoreapp2.2\gireOdado.pdb
