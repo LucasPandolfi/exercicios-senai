@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\obj\Debug\netcoreapp2.2\n.inteiro.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\obj\Debug\netcoreapp2.2\n.inteiro.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\obj\Debug\netcoreapp2.2\n.inteiro.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\obj\Debug\netcoreapp2.2\n.inteiro.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\bin\Debug\netcoreapp2.2\n.inteiro.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\bin\Debug\netcoreapp2.2\n.inteiro.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\bin\Debug\netcoreapp2.2\n.inteiro.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\bin\Debug\netcoreapp2.2\n.inteiro.dll
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\bin\Debug\netcoreapp2.2\n.inteiro.pdb
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\obj\Debug\netcoreapp2.2\n.inteiro.dll
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\n.inteiro\obj\Debug\netcoreapp2.2\n.inteiro.pdb

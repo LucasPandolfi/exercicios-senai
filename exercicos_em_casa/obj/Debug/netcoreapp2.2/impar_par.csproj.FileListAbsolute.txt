@@ -1,0 +1,8 @@
+C:\Users\lucas\Documents\exercicos em casa\obj\Debug\netcoreapp2.2\impar_par.csprojAssemblyReference.cache
+C:\Users\lucas\Documents\exercicos em casa\obj\Debug\netcoreapp2.2\impar_par.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\exercicos em casa\obj\Debug\netcoreapp2.2\impar_par.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\exercicos em casa\obj\Debug\netcoreapp2.2\impar_par.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\obj\Debug\netcoreapp2.2\impar_par.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\obj\Debug\netcoreapp2.2\impar_par.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\obj\Debug\netcoreapp2.2\impar_par.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\obj\Debug\netcoreapp2.2\impar_par.AssemblyInfo.cs

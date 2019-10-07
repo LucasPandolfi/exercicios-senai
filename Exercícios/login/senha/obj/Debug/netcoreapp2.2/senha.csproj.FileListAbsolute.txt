@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\obj\Debug\netcoreapp2.2\senha.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\obj\Debug\netcoreapp2.2\senha.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\obj\Debug\netcoreapp2.2\senha.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\obj\Debug\netcoreapp2.2\senha.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\bin\Debug\netcoreapp2.2\senha.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\bin\Debug\netcoreapp2.2\senha.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\bin\Debug\netcoreapp2.2\senha.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\bin\Debug\netcoreapp2.2\senha.dll
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\bin\Debug\netcoreapp2.2\senha.pdb
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\obj\Debug\netcoreapp2.2\senha.dll
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\login\senha\obj\Debug\netcoreapp2.2\senha.pdb

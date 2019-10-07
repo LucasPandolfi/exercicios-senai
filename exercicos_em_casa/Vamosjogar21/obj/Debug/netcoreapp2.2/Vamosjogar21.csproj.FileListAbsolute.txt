@@ -1,0 +1,22 @@
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.deps.json
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.runtimeconfig.json
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.runtimeconfig.dev.json
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.dll
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.pdb
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.csprojAssemblyReference.cache
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.AssemblyInfo.cs
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.dll
+C:\Users\lucas\Documents\exercicos em casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.pdb
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.dll
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\bin\Debug\netcoreapp2.2\Vamosjogar21.pdb
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.dll
+C:\Users\50345891848\Documents\exercicios-senai\exercicos_em_casa\Vamosjogar21\obj\Debug\netcoreapp2.2\Vamosjogar21.pdb

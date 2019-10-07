@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\bin\Debug\netcoreapp2.2\menu_calculador.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\bin\Debug\netcoreapp2.2\menu_calculador.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\bin\Debug\netcoreapp2.2\menu_calculador.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\bin\Debug\netcoreapp2.2\menu_calculador.dll
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\bin\Debug\netcoreapp2.2\menu_calculador.pdb
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\obj\Debug\netcoreapp2.2\menu_calculador.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\obj\Debug\netcoreapp2.2\menu_calculador.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\obj\Debug\netcoreapp2.2\menu_calculador.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\obj\Debug\netcoreapp2.2\menu_calculador.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\obj\Debug\netcoreapp2.2\menu_calculador.dll
+C:\Users\50345891848\Documents\exercicios-senai\Exercícios\menu_calculador\obj\Debug\netcoreapp2.2\menu_calculador.pdb
