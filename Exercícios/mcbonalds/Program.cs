@@ -1,19 +1,16 @@
 ﻿using System;
 
-namespace mcbonalds
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-           Cliente cliente1 = new Cliente("Paulão","11 3216-8754","Paulão@email.com");
-           string teste;
+namespace mcbonalds {
+    class Program {
+        static void Main (string[] args) {
+            Cliente cliente1 = new Cliente ("Paulão", "11 3216-8754", "Paulão@email.com");
+            string teste;
 
-           Console.WriteLine("Nome: " + cliente1.Nome);
-           Console.WriteLine("Telefone: " + cliente1.Telefone);
-           Console.WriteLine("Email: " + cliente1.Email);
+            Console.WriteLine ("Nome: " + cliente1.Nome);
+            Console.WriteLine ("Telefone: " + cliente1.Telefone);
+            Console.WriteLine ("Email: " + cliente1.Email);
 
-            teste = Cliente.Nome();//fff
+            teste = Cliente.Nome (); //fff
         }
     }
 }
