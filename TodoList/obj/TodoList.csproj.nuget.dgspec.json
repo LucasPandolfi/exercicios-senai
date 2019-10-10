@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TodoList\\TodoList.csproj": {}
+    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TOdoList\\TodoList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TodoList\\TodoList.csproj": {
+    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TOdoList\\TodoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TodoList\\TodoList.csproj",
+        "projectUniqueName": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TOdoList\\TodoList.csproj",
         "projectName": "TodoList",
-        "projectPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TodoList\\TodoList.csproj",
+        "projectPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TOdoList\\TodoList.csproj",
         "packagesPath": "C:\\Users\\50345891848\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TodoList\\obj\\",
+        "outputPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\TOdoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
