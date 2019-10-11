@@ -20,6 +20,8 @@ namespace ByteBank
             string email = (Console.ReadLine());
 
             Cliente cliente1 = new Cliente(nome,cpf,email);
+            System.Console.WriteLine(cliente1.Senha);
+            
 
                 bool trocouSenha = false;
             do{
@@ -47,10 +49,11 @@ namespace ByteBank
             int Numero = int.Parse(Console.ReadLine());
 
             ContaCorrente contaCorrente = new ContaCorrente(Agencia, Numero, cliente1);
+            /* System.Console.WriteLine(contaCorrente.Saldo);
 
             Console.WriteLine($"Insira seu saldo: ");
             do{ 
-            contaCorrente.Saldo = Double.Parse(Console.ReadLine());
+            contaCorrente.Deposito(Sal) = Double.Parse(Console.ReadLine());
             if(contaCorrente.Saldo < 0)
             {
                 Console.Write("Valor inválido! Digite um valor positivo!: ");
@@ -59,7 +62,7 @@ namespace ByteBank
             {
                 Console.Write($"Seu saldo é de: {contaCorrente.Saldo} ");
             }
-            }while(contaCorrente.Saldo < 0);
+            }while(contaCorrente.Saldo < 0);*/
             #endregion
 
             Cliente cliente2 = new Cliente("Cesar","123.123.123-45","1@a.com");
@@ -102,7 +105,7 @@ namespace ByteBank
             Console.WriteLine();
             Console.WriteLine("Digite o valor da transferência: ");
             valor = double.Parse(Console.ReadLine());
-            if(contaCorrente.Transferencia(contaCorrente2,valor));
+            if(contaCorrente.Transferencia(contaCorrente2,valor))
             {
                 Console.WriteLine("Transferência efetuada.");
             }
