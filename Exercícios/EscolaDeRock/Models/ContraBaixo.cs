@@ -14,6 +14,7 @@ namespace EscolaDeRock.Models
         public bool TocarAcordes()
         {
             System.Console.WriteLine("Tocando acordes do contrabaixo");
+            return true;
         }
     }
 }

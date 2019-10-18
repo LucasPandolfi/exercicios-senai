@@ -42,9 +42,10 @@ namespace EscolaDeRock
             int opcaoFormacaoSelecionada = 0;
             string menuBar = "=================================";
 
+                bool querSair = false;
             do
             {
-                bool formacaoEscolhida = false;
+                bool formacaoEscolhida = false; 
 
                 do
                 {
@@ -64,7 +65,7 @@ namespace EscolaDeRock
                         if(opcaoFormacaoSelecionada == i)
                         {
                             Console.BackgroundColor = ConsoleColor.DarkRed;
-                            System.Console.WriteLine(opcoesFormacao[opcaoFormacaoSelecionada].Replace("-",">").Replace(object.ToString(),titulo));
+                            System.Console.WriteLine(opcoesFormacao[opcaoFormacaoSelecionada].Replace("-",">").Replace(i.ToString(),titulo));
                             Console.ResetColor();
                         }
                         else
@@ -73,9 +74,9 @@ namespace EscolaDeRock
                         }
                     }
 
-                    var key = Console.Readkey(true);
+                    var Key = Console.ReadKey(true).Key;
 
-                    switch (key)
+                    switch (Key)
                     {
                         case ConsoleKey.UpArrow:
                             opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == 0 ? opcaoFormacaoSelecionada : --opcaoFormacaoSelecionada;

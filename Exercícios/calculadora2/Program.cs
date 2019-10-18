@@ -28,7 +28,7 @@ namespace calculadora2
                 else if(oper == "%")
             Console.Write($"{num1} % {num2} = {num1 % num2}");
                 else{
-                    Console.WriteLine("Operaçaõ inválida")
+                    Console.WriteLine("Operaçaõ inválida");
                 }
             
         }

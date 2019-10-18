@@ -5,7 +5,7 @@ namespace Aluno
    public class Aluno
     {
         //propriedades
-        public string Nome{get,set;}
+        public string Nome{get;set;}
         public string Curso{get;set;}
         public string Cpf{get;set;}
         public int[] Notas{get;set;}
