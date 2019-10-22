@@ -6,6 +6,6 @@ namespace Reciclagem.Interfaces
 {
     public interface ILataMarrom
     {
-        bool Organico();
+        void JogarNoLixo();
     }
 }

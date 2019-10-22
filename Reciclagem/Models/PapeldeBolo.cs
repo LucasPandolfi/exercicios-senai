@@ -6,10 +6,10 @@ namespace Reciclagem.Models
 {
     public class PapeldeBolo : Materiais, ILataCinza
     {
-        public bool Indefinido()
+        public override void JogarNoLixo()
         {
             System.Console.WriteLine("Papel de bolo não é reciclavel, contudo pertence a lata cinza.");
-            return true;
+            System.Console.WriteLine();
         }
     }
 }

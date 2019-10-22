@@ -6,10 +6,10 @@ namespace Reciclagem.Models
 {
     public class CopodeVidro : Materiais, ILataVerde 
     {
-        public bool Vidro()
+        public override void JogarNoLixo()
         {
             System.Console.WriteLine("Copo de vidro é reciclavél, contudo pertence a lata verde.");
-            return true;
+            System.Console.WriteLine();
         }
     }
 }

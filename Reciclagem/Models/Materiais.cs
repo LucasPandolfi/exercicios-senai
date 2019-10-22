@@ -1,7 +1,7 @@
 namespace Reciclagem.Models
 {
-    public class Materiais
+    public abstract class Materiais
     {
-        
+        public abstract void JogarNoLixo();
     }
 }

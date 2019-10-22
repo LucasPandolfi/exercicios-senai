@@ -6,10 +6,12 @@ namespace Reciclagem.Models
 {
     public class CascadeLaranja : Materiais, ILataMarrom
     {
-        public bool Organico() 
+
+        public override void JogarNoLixo() 
         { 
         System.Console.WriteLine("Casca de laranja é orgânico, contudo pertence a lata marrom.");
-            return true;
+        System.Console.WriteLine();
+        System.Console.WriteLine("A casca de laranja foi enviada para a combustera.");
         }
     }
 }

@@ -6,6 +6,6 @@ namespace Reciclagem.Interfaces
 {
     public interface ILataAzul
     {
-        bool Papel();
+        void JogarNoLixo();
     }
 }

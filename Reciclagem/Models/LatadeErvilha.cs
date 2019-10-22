@@ -6,10 +6,10 @@ namespace Reciclagem.Models
 {
     public class LatadeErvilha : Materiais, ILataAmarela
     {
-        public bool Metal()
+        public override void JogarNoLixo()
         {
             System.Console.WriteLine("Lata de ervilha é reciclavél, contudo pertence a lata amarela");
-            return true;
+            System.Console.WriteLine();
         }
     }
 }
