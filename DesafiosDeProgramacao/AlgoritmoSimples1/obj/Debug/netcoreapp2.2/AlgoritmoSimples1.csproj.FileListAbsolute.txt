@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\bin\Debug\netcoreapp2.2\AlgoritmoSimples1.deps.json
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\bin\Debug\netcoreapp2.2\AlgoritmoSimples1.runtimeconfig.json
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\bin\Debug\netcoreapp2.2\AlgoritmoSimples1.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\bin\Debug\netcoreapp2.2\AlgoritmoSimples1.dll
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\bin\Debug\netcoreapp2.2\AlgoritmoSimples1.pdb
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\obj\Debug\netcoreapp2.2\AlgoritmoSimples1.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\obj\Debug\netcoreapp2.2\AlgoritmoSimples1.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\obj\Debug\netcoreapp2.2\AlgoritmoSimples1.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\obj\Debug\netcoreapp2.2\AlgoritmoSimples1.AssemblyInfo.cs
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\obj\Debug\netcoreapp2.2\AlgoritmoSimples1.dll
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\AlgoritmoSimples1\obj\Debug\netcoreapp2.2\AlgoritmoSimples1.pdb

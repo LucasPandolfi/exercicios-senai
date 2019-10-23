@@ -8,7 +8,7 @@ namespace Reciclagem.Models
     {
         public override void JogarNoLixo()
         {
-            System.Console.WriteLine("Papel é reciclavel, contudo pertence a lata azul.");
+            System.Console.WriteLine("Papel é reciclavel, ou seja, pertence a lata azul.");
             System.Console.WriteLine();
         }
     }

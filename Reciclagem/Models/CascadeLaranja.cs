@@ -9,7 +9,7 @@ namespace Reciclagem.Models
 
         public override void JogarNoLixo() 
         { 
-        System.Console.WriteLine("Casca de laranja é orgânico, contudo pertence a lata marrom.");
+        System.Console.WriteLine("Casca de laranja é orgânico, ou seja, pertence a lata marrom.");
         System.Console.WriteLine();
         System.Console.WriteLine("A casca de laranja foi enviada para a combustera.");
         }

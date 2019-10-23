@@ -8,7 +8,7 @@ namespace Reciclagem.Models
     {
         public override void JogarNoLixo()
         {
-            System.Console.WriteLine("GarrafaPet é um plastico, contudo pertence a lata vermelha.");
+            System.Console.WriteLine("GarrafaPet é um plastico, ou seja, pertence a lata vermelha.");
             System.Console.WriteLine();
         }
     }

@@ -8,7 +8,7 @@ namespace Reciclagem.Models
     {
         public override void JogarNoLixo()
         {
-            System.Console.WriteLine("Copo de vidro é reciclavél, contudo pertence a lata verde.");
+            System.Console.WriteLine("Copo de vidro é reciclavél, ou seja, pertence a lata verde.");
             System.Console.WriteLine();
         }
     }

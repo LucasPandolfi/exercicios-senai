@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\bin\Debug\netcoreapp2.2\FormulaDeConversao.deps.json
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\bin\Debug\netcoreapp2.2\FormulaDeConversao.runtimeconfig.json
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\bin\Debug\netcoreapp2.2\FormulaDeConversao.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\bin\Debug\netcoreapp2.2\FormulaDeConversao.dll
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\bin\Debug\netcoreapp2.2\FormulaDeConversao.pdb
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\obj\Debug\netcoreapp2.2\FormulaDeConversao.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\obj\Debug\netcoreapp2.2\FormulaDeConversao.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\obj\Debug\netcoreapp2.2\FormulaDeConversao.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\obj\Debug\netcoreapp2.2\FormulaDeConversao.AssemblyInfo.cs
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\obj\Debug\netcoreapp2.2\FormulaDeConversao.dll
+C:\Users\50345891848\Documents\DesafiosDeProgramacao\FormulaDeConversao\obj\Debug\netcoreapp2.2\FormulaDeConversao.pdb
