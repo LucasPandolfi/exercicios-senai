@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\obj\Debug\netcoreapp2.2\SequenciaDeCem.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\obj\Debug\netcoreapp2.2\SequenciaDeCem.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\obj\Debug\netcoreapp2.2\SequenciaDeCem.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\obj\Debug\netcoreapp2.2\SequenciaDeCem.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\bin\Debug\netcoreapp2.2\SequenciaDeCem.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\bin\Debug\netcoreapp2.2\SequenciaDeCem.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\bin\Debug\netcoreapp2.2\SequenciaDeCem.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\bin\Debug\netcoreapp2.2\SequenciaDeCem.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\bin\Debug\netcoreapp2.2\SequenciaDeCem.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\obj\Debug\netcoreapp2.2\SequenciaDeCem.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\SequenciaDeCem\obj\Debug\netcoreapp2.2\SequenciaDeCem.pdb

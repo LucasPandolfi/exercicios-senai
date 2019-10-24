@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\obj\Debug\netcoreapp2.2\ImprimindoPiramede.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\obj\Debug\netcoreapp2.2\ImprimindoPiramede.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\obj\Debug\netcoreapp2.2\ImprimindoPiramede.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\obj\Debug\netcoreapp2.2\ImprimindoPiramede.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\bin\Debug\netcoreapp2.2\ImprimindoPiramede.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\bin\Debug\netcoreapp2.2\ImprimindoPiramede.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\bin\Debug\netcoreapp2.2\ImprimindoPiramede.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\bin\Debug\netcoreapp2.2\ImprimindoPiramede.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\bin\Debug\netcoreapp2.2\ImprimindoPiramede.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\obj\Debug\netcoreapp2.2\ImprimindoPiramede.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoPiramede\obj\Debug\netcoreapp2.2\ImprimindoPiramede.pdb

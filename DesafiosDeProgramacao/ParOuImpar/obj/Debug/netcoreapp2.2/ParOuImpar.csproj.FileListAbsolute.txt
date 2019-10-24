@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\bin\Debug\netcoreapp2.2\ParOuImpar.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\bin\Debug\netcoreapp2.2\ParOuImpar.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\bin\Debug\netcoreapp2.2\ParOuImpar.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\bin\Debug\netcoreapp2.2\ParOuImpar.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\bin\Debug\netcoreapp2.2\ParOuImpar.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\obj\Debug\netcoreapp2.2\ParOuImpar.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\obj\Debug\netcoreapp2.2\ParOuImpar.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\obj\Debug\netcoreapp2.2\ParOuImpar.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\obj\Debug\netcoreapp2.2\ParOuImpar.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\obj\Debug\netcoreapp2.2\ParOuImpar.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ParOuImpar\obj\Debug\netcoreapp2.2\ParOuImpar.pdb

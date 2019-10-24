@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\bin\Debug\netcoreapp2.2\VelocidadeMedia.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\bin\Debug\netcoreapp2.2\VelocidadeMedia.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\bin\Debug\netcoreapp2.2\VelocidadeMedia.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\bin\Debug\netcoreapp2.2\VelocidadeMedia.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\bin\Debug\netcoreapp2.2\VelocidadeMedia.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\obj\Debug\netcoreapp2.2\VelocidadeMedia.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\obj\Debug\netcoreapp2.2\VelocidadeMedia.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\obj\Debug\netcoreapp2.2\VelocidadeMedia.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\obj\Debug\netcoreapp2.2\VelocidadeMedia.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\obj\Debug\netcoreapp2.2\VelocidadeMedia.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VelocidadeMedia\obj\Debug\netcoreapp2.2\VelocidadeMedia.pdb

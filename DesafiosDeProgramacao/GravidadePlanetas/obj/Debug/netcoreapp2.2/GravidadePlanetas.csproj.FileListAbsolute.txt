@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\obj\Debug\netcoreapp2.2\GravidadePlanetas.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\obj\Debug\netcoreapp2.2\GravidadePlanetas.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\obj\Debug\netcoreapp2.2\GravidadePlanetas.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\obj\Debug\netcoreapp2.2\GravidadePlanetas.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\bin\Debug\netcoreapp2.2\GravidadePlanetas.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\bin\Debug\netcoreapp2.2\GravidadePlanetas.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\bin\Debug\netcoreapp2.2\GravidadePlanetas.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\bin\Debug\netcoreapp2.2\GravidadePlanetas.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\bin\Debug\netcoreapp2.2\GravidadePlanetas.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\obj\Debug\netcoreapp2.2\GravidadePlanetas.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\GravidadePlanetas\obj\Debug\netcoreapp2.2\GravidadePlanetas.pdb

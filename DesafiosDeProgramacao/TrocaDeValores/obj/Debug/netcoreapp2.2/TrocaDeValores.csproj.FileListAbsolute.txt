@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\bin\Debug\netcoreapp2.2\TrocaDeValores.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\bin\Debug\netcoreapp2.2\TrocaDeValores.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\bin\Debug\netcoreapp2.2\TrocaDeValores.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\bin\Debug\netcoreapp2.2\TrocaDeValores.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\bin\Debug\netcoreapp2.2\TrocaDeValores.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\obj\Debug\netcoreapp2.2\TrocaDeValores.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\obj\Debug\netcoreapp2.2\TrocaDeValores.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\obj\Debug\netcoreapp2.2\TrocaDeValores.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\obj\Debug\netcoreapp2.2\TrocaDeValores.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\obj\Debug\netcoreapp2.2\TrocaDeValores.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TrocaDeValores\obj\Debug\netcoreapp2.2\TrocaDeValores.pdb

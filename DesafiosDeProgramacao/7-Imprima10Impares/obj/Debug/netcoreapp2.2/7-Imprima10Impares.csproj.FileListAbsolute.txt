@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\bin\Debug\netcoreapp2.2\7-Imprima10Impares.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\bin\Debug\netcoreapp2.2\7-Imprima10Impares.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\bin\Debug\netcoreapp2.2\7-Imprima10Impares.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\bin\Debug\netcoreapp2.2\7-Imprima10Impares.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\bin\Debug\netcoreapp2.2\7-Imprima10Impares.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\obj\Debug\netcoreapp2.2\7-Imprima10Impares.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\obj\Debug\netcoreapp2.2\7-Imprima10Impares.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\obj\Debug\netcoreapp2.2\7-Imprima10Impares.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\obj\Debug\netcoreapp2.2\7-Imprima10Impares.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\obj\Debug\netcoreapp2.2\7-Imprima10Impares.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\7-Imprima10Impares\obj\Debug\netcoreapp2.2\7-Imprima10Impares.pdb
