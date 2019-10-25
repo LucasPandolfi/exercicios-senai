@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\bin\Debug\netcoreapp2.2\MultiploDe3.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\bin\Debug\netcoreapp2.2\MultiploDe3.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\bin\Debug\netcoreapp2.2\MultiploDe3.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\bin\Debug\netcoreapp2.2\MultiploDe3.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\bin\Debug\netcoreapp2.2\MultiploDe3.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\obj\Debug\netcoreapp2.2\MultiploDe3.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\obj\Debug\netcoreapp2.2\MultiploDe3.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\obj\Debug\netcoreapp2.2\MultiploDe3.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\obj\Debug\netcoreapp2.2\MultiploDe3.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\obj\Debug\netcoreapp2.2\MultiploDe3.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MultiploDe3\obj\Debug\netcoreapp2.2\MultiploDe3.pdb

@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\obj\Debug\netcoreapp2.2\TriangulosVerdadeiros.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\obj\Debug\netcoreapp2.2\TriangulosVerdadeiros.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\obj\Debug\netcoreapp2.2\TriangulosVerdadeiros.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\obj\Debug\netcoreapp2.2\TriangulosVerdadeiros.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\bin\Debug\netcoreapp2.2\TriangulosVerdadeiros.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\bin\Debug\netcoreapp2.2\TriangulosVerdadeiros.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\bin\Debug\netcoreapp2.2\TriangulosVerdadeiros.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\bin\Debug\netcoreapp2.2\TriangulosVerdadeiros.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\bin\Debug\netcoreapp2.2\TriangulosVerdadeiros.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\obj\Debug\netcoreapp2.2\TriangulosVerdadeiros.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\TriangulosVerdadeiros\obj\Debug\netcoreapp2.2\TriangulosVerdadeiros.pdb

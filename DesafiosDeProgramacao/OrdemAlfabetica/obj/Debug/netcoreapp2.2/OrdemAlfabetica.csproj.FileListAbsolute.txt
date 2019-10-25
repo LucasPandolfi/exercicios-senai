@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\bin\Debug\netcoreapp2.2\OrdemAlfabetica.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\bin\Debug\netcoreapp2.2\OrdemAlfabetica.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\bin\Debug\netcoreapp2.2\OrdemAlfabetica.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\bin\Debug\netcoreapp2.2\OrdemAlfabetica.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\bin\Debug\netcoreapp2.2\OrdemAlfabetica.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\obj\Debug\netcoreapp2.2\OrdemAlfabetica.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\obj\Debug\netcoreapp2.2\OrdemAlfabetica.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\obj\Debug\netcoreapp2.2\OrdemAlfabetica.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\obj\Debug\netcoreapp2.2\OrdemAlfabetica.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\obj\Debug\netcoreapp2.2\OrdemAlfabetica.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\OrdemAlfabetica\obj\Debug\netcoreapp2.2\OrdemAlfabetica.pdb
