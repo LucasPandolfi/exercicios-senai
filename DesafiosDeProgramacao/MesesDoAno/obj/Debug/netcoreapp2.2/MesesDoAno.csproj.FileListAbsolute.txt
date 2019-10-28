@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\obj\Debug\netcoreapp2.2\MesesDoAno.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\obj\Debug\netcoreapp2.2\MesesDoAno.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\obj\Debug\netcoreapp2.2\MesesDoAno.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\obj\Debug\netcoreapp2.2\MesesDoAno.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\bin\Debug\netcoreapp2.2\MesesDoAno.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\bin\Debug\netcoreapp2.2\MesesDoAno.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\bin\Debug\netcoreapp2.2\MesesDoAno.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\bin\Debug\netcoreapp2.2\MesesDoAno.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\bin\Debug\netcoreapp2.2\MesesDoAno.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\obj\Debug\netcoreapp2.2\MesesDoAno.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\MesesDoAno\obj\Debug\netcoreapp2.2\MesesDoAno.pdb

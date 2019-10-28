@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\obj\Debug\netcoreapp2.2\VetorDe10Inteiros.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\obj\Debug\netcoreapp2.2\VetorDe10Inteiros.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\obj\Debug\netcoreapp2.2\VetorDe10Inteiros.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\obj\Debug\netcoreapp2.2\VetorDe10Inteiros.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\bin\Debug\netcoreapp2.2\VetorDe10Inteiros.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\bin\Debug\netcoreapp2.2\VetorDe10Inteiros.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\bin\Debug\netcoreapp2.2\VetorDe10Inteiros.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\bin\Debug\netcoreapp2.2\VetorDe10Inteiros.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\bin\Debug\netcoreapp2.2\VetorDe10Inteiros.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\obj\Debug\netcoreapp2.2\VetorDe10Inteiros.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorDe10Inteiros\obj\Debug\netcoreapp2.2\VetorDe10Inteiros.pdb

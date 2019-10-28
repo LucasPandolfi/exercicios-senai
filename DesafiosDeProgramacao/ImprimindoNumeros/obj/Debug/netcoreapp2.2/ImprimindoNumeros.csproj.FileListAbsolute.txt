@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\obj\Debug\netcoreapp2.2\ImprimindoNumeros.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\obj\Debug\netcoreapp2.2\ImprimindoNumeros.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\obj\Debug\netcoreapp2.2\ImprimindoNumeros.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\obj\Debug\netcoreapp2.2\ImprimindoNumeros.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\bin\Debug\netcoreapp2.2\ImprimindoNumeros.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\bin\Debug\netcoreapp2.2\ImprimindoNumeros.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\bin\Debug\netcoreapp2.2\ImprimindoNumeros.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\bin\Debug\netcoreapp2.2\ImprimindoNumeros.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\bin\Debug\netcoreapp2.2\ImprimindoNumeros.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\obj\Debug\netcoreapp2.2\ImprimindoNumeros.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\ImprimindoNumeros\obj\Debug\netcoreapp2.2\ImprimindoNumeros.pdb

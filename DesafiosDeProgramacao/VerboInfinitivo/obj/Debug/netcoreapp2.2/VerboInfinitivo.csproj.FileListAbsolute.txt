@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\bin\Debug\netcoreapp2.2\VerboInfinitivo.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\bin\Debug\netcoreapp2.2\VerboInfinitivo.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\bin\Debug\netcoreapp2.2\VerboInfinitivo.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\bin\Debug\netcoreapp2.2\VerboInfinitivo.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\bin\Debug\netcoreapp2.2\VerboInfinitivo.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\obj\Debug\netcoreapp2.2\VerboInfinitivo.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\obj\Debug\netcoreapp2.2\VerboInfinitivo.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\obj\Debug\netcoreapp2.2\VerboInfinitivo.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\obj\Debug\netcoreapp2.2\VerboInfinitivo.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\obj\Debug\netcoreapp2.2\VerboInfinitivo.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VerboInfinitivo\obj\Debug\netcoreapp2.2\VerboInfinitivo.pdb

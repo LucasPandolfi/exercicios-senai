@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\obj\Debug\netcoreapp2.2\LimiteSuperior.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\obj\Debug\netcoreapp2.2\LimiteSuperior.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\obj\Debug\netcoreapp2.2\LimiteSuperior.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\obj\Debug\netcoreapp2.2\LimiteSuperior.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\bin\Debug\netcoreapp2.2\LimiteSuperior.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\bin\Debug\netcoreapp2.2\LimiteSuperior.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\bin\Debug\netcoreapp2.2\LimiteSuperior.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\bin\Debug\netcoreapp2.2\LimiteSuperior.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\bin\Debug\netcoreapp2.2\LimiteSuperior.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\obj\Debug\netcoreapp2.2\LimiteSuperior.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\LimiteSuperior\obj\Debug\netcoreapp2.2\LimiteSuperior.pdb
