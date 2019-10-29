@@ -1,0 +1,11 @@
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\obj\Debug\netcoreapp2.2\Matriz3X3.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\obj\Debug\netcoreapp2.2\Matriz3X3.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\obj\Debug\netcoreapp2.2\Matriz3X3.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\obj\Debug\netcoreapp2.2\Matriz3X3.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\bin\Debug\netcoreapp2.2\Matriz3X3.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\bin\Debug\netcoreapp2.2\Matriz3X3.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\bin\Debug\netcoreapp2.2\Matriz3X3.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\bin\Debug\netcoreapp2.2\Matriz3X3.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\bin\Debug\netcoreapp2.2\Matriz3X3.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\obj\Debug\netcoreapp2.2\Matriz3X3.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Matriz3X3\obj\Debug\netcoreapp2.2\Matriz3X3.pdb

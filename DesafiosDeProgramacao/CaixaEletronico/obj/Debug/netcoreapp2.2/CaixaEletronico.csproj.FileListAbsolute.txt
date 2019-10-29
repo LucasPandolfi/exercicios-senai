@@ -9,3 +9,14 @@ C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\ob
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.AssemblyInfo.cs
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.dll
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\bin\Debug\netcoreapp2.2\CaixaEletronico.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\bin\Debug\netcoreapp2.2\CaixaEletronico.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\bin\Debug\netcoreapp2.2\CaixaEletronico.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\bin\Debug\netcoreapp2.2\CaixaEletronico.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\bin\Debug\netcoreapp2.2\CaixaEletronico.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\CaixaEletronico\obj\Debug\netcoreapp2.2\CaixaEletronico.pdb
