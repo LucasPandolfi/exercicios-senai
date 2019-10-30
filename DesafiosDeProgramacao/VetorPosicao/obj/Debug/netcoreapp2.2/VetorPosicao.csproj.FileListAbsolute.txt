@@ -1,0 +1,11 @@
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.deps.json
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.runtimeconfig.json
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.dll
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.pdb
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.AssemblyInfo.cs
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.dll
+C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.pdb
