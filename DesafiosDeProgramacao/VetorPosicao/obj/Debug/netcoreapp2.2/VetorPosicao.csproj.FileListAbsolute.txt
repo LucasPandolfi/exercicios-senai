@@ -9,3 +9,14 @@ C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\D
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.AssemblyInfo.cs
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.dll
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\bin\Debug\netcoreapp2.2\VetorPosicao.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\VetorPosicao\obj\Debug\netcoreapp2.2\VetorPosicao.pdb

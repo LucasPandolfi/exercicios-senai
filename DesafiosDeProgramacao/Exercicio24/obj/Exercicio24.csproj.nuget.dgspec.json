@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\VetorPosicao\\VetorPosicao.csproj": {}
+    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\Exercicio24\\Exercicio24.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\VetorPosicao\\VetorPosicao.csproj": {
+    "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\Exercicio24\\Exercicio24.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\VetorPosicao\\VetorPosicao.csproj",
-        "projectName": "VetorPosicao",
-        "projectPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\VetorPosicao\\VetorPosicao.csproj",
+        "projectUniqueName": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\Exercicio24\\Exercicio24.csproj",
+        "projectName": "Exercicio24",
+        "projectPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\Exercicio24\\Exercicio24.csproj",
         "packagesPath": "C:\\Users\\50345891848\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\VetorPosicao\\obj\\",
+        "outputPath": "C:\\Users\\50345891848\\Documents\\exercicios-senai\\DesafiosDeProgramacao\\Exercicio24\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
