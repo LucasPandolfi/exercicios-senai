@@ -15,7 +15,7 @@ namespace Exercicio26
             { 
             System.Console.WriteLine("Insira um nome:  ");
             string Nome = Console.ReadLine();
-           
+            
             Pessoas.Add(Nome);
             System.Console.WriteLine("Deseja insirir outro nome ? 1 - SIM | 2 - NÃO");
             Opcao = Console.ReadLine();

@@ -9,3 +9,14 @@ C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\De
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.AssemblyInfo.cs
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.dll
 C:\Users\lucas\Desktop\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\bin\Debug\netcoreapp2.2\Exercicio24.deps.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\bin\Debug\netcoreapp2.2\Exercicio24.runtimeconfig.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\bin\Debug\netcoreapp2.2\Exercicio24.runtimeconfig.dev.json
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\bin\Debug\netcoreapp2.2\Exercicio24.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\bin\Debug\netcoreapp2.2\Exercicio24.pdb
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.csprojAssemblyReference.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.csproj.CoreCompileInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.AssemblyInfoInputs.cache
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.AssemblyInfo.cs
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.dll
+C:\Users\50345891848\Documents\exercicios-senai\DesafiosDeProgramacao\Exercicio24\obj\Debug\netcoreapp2.2\Exercicio24.pdb

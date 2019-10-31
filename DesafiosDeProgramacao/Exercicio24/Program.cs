@@ -10,6 +10,7 @@ namespace Exercicio24
             System.Console.WriteLine();
             int[] Numeros = new int[10];
             int[] Numeros2 = new int[10];
+            int[] SomaNum = new int[10];
             
             Random Aleatorio = new Random();
             Random Aleatorio2 = new Random();
@@ -31,9 +32,12 @@ namespace Exercicio24
             }
 
                 //Aqui estou criandop minha matriz para somar os dois pontos iniciais das outras duas matrizes
-                int[] SomaNum = new int[Numeros[0] + Numeros2[0]];
-                int Soma = SomaNum.Length;
-                 System.Console.WriteLine($"A soma dos valores iniciais dos vetores é de: {Soma}");
+                System.Console.WriteLine("Terceira matriz: ");
+                for (int i = 0; i < 10; i++)
+                {
+                    SomaNum[i] = Numeros[i] + Numeros2[i];
+                    System.Console.WriteLine($"{SomaNum[i]}");
+                }
         }
     }
 }
