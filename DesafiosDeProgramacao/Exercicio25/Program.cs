@@ -36,9 +36,15 @@ namespace Exercicio25
                 System.Console.WriteLine($"{Vetor2[j]}");
             }
 
-            int[] Uniao = new int[Vetor[i] + Vetor2[j]];
-            int UniaoFinal = Uniao.Length;
-            System.Console.WriteLine($"Terceira matriz une as duas anteriores: {UniaoFinal} ");
+            System.Console.WriteLine("Terceiro vetor: ");
+            for (int l = 0; l < Tamanho; l++)
+            {
+                System.Console.WriteLine($"{Vetor[l]}");
+            }
+            for (int k = 0; k < Tamanho2; k++)
+            {
+                System.Console.WriteLine($"{Vetor2[k]}");
+            }
         }
     }
 }
