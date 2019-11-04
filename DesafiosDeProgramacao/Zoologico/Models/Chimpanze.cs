@@ -5,7 +5,7 @@ using Zoologico.Models;
 
 namespace Zoologico.Models
 {
-    public class Chimpaze : IEscalador
+    public class Chimpanze : Animais, IEscalador
     {
         public string EscalarArvores()
         {

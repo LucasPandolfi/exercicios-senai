@@ -14,7 +14,7 @@ namespace Zoologico.Models
             {3, new Arara()},
             {4, new Leao()},
             {5, new Orangotango()},
-            {6, new Chimpaze()},
+            {6, new Chimpanze()},
             {7, new Pinguim()},
             {8, new Tartaruga()},
             {9, new Golfinho()}
