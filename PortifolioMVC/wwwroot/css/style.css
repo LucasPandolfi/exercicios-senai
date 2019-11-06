@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/******************************************************************************************************* 
+                                        INICIO - NAV 
+********************************************************************************************************/
+nav{
+    background-color:#9932CC
+}
+
+NAV UL{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #361a0c;
+    font-weight: bold;
+    padding: .65em 3em;
+}
+nav a:hover {
+    background-color: #A020F0;
+    color: #fff;
+    box-shadow: 0 2px #A020F0;  /*efeito de sombra*/
+}
+
+.navegação {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+}
+/******************************************************************************************************* 
+                                            FIM - NAV 
+********************************************************************************************************/
+
+.image{
+    background-image:url("../img/screen-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%
+}
+
+.titulo{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+    color: #fff 
+}
+/******************************************************************************************************* 
+                                    início - Centralização dos textos
+********************************************************************************************************/
+
+.text-cantainer >p{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.text-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+/******************************************************************************************************* 
+                                    FIM - Centralização dos textos
+********************************************************************************************************/
+
+/******************************************************************************************************* 
+                                    INÍcio - centralização das iamgens 
+********************************************************************************************************/
+
+.imagens{
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.sub-titulo{
+    text-align: center;
+}
+
+.voltar-ao-topo{
+    text-align: center;
+}
