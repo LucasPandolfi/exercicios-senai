@@ -14,7 +14,7 @@ namespace TodoList {
                 foreach (var line in todoFile) {
                     string[] itens = line.Split (",");
                     string titulo = itens[0].Replace ("\"", "");
-                    string nota = itens[1].Replace ("\"", "");
+                    string nota = itens[2].Replace ("\"", "");
 
                     TodoItem todoItem = new TodoItem (titulo, nota);
                     todoList.Add (todoItem);
