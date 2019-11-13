@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+    <link href="css/Meusdados.css" rel="stylesheet" type="text/css">
+    <title>meus dados</title>
+</head>
+<body>
+        <header>
+                <nav>
+                        <ul>
+                           <li id="bt-mobile-menu">
+                                <!-- HTML para colocar os ícones do FA -->
+                                <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                            </li>
+                            <div class="logo-area">
+                                <img src="img/logo.png">
+                            </div>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="Home.html">Home</a></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="Eventos.html">Eventos</a></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="Galeria.html">Galeria</a></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="Alugar.html">Alugar</a></li>
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="Meusdados.html"><i class="fas fa-user-cog"></i></a></li>
+                        </ul>
+                </nav>
+            </header>
+
+        <form class="formteste" action="Meusdados.html" method="POST">
+                <div class="titulo"><h2>Meus dados</h2></div>
+            <div class="agoravai">
+                <p>Nome</p>
+                <div class="nome">
+                    <input type="text" name="nome" placeholder="Informe seu novo nome" required="required">
+                </div>
+
+                <p>E-mail</p>
+                <div class="email">
+                    <input type="email" name="email" placeholder="Informe seu e-mail" required="required">
+                </div>
+
+                <p>Novo e-mail</p>
+                <div class="email">
+                    <input type="email" name="email" placeholder="Informe seu novo e-mail" required="required">
+                </div>
+
+                <p>Senha atual</p>
+                <div class="senha">
+                        <input type="password" name="senha" placeholder="informe sua senha atual" required="required">
+                </div>
+
+                <p>Nova senha</p>
+                <div class="senha">
+                    <input type="password" name="senha" placeholder="Informe sua nova senha" required="required">
+                </div>
+            </div>
+            <div class="botoes">
+                <div class="cancelar">
+                    <input type="submit" name="cancelar" value="Cancelar">
+                </div>
+
+                <div class="salvar-alterações">
+                    <input type="submit" name="salvar-alterações" value="salvar-alterações">
+                </div>
+            </div>
+
+        </form>
+
+            <div class="voltar-ao-topo">
+                    <footer>
+                        <address>
+                            Avenida de Limeira, 539 - Campos Elíseos - SP
+                            <br />
+                            roletop@email.com
+                            <br />
+                            11 1234 6789
+                        </address>
+                        <a href="#">Voltar para o topo!</a>
+                    </footer>
+            </div>
+
+            <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+
+            ul.classList.toggle("mobile-mode");
+
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+
+        }
+        
+    </script>
+    
+</body>
+</html>

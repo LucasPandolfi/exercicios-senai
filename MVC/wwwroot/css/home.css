@@ -1,0 +1,277 @@
+body{
+       background-image: linear-gradient(to bottom,#ffc600,#fff 40%,#C9A939);
+       font-family: Arial, Helvetica, sans-serif;
+       color: #000
+    }
+                         /* Inicio do menu de navegação */
+nav {
+    background-color:#7d0093;
+    max-width: 100%;
+} 
+
+nav ul li{
+    background-color:#7d0093;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3em;
+    height: 4.5em;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #361a0c;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #A020F0;
+    color: #fff;
+    box-shadow: 0 5px #A020F0;  /*efeito de sombra*/
+}
+
+.navegação {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+}
+                              /* Fim do menu de navegação */
+
+
+                              /* Inicio das imagens */
+.imagens-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    width: 27em;
+}
+
+.imagens-estrutura{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 33em;
+    padding: 10px 0;
+}
+
+.logo-area >img{
+    width: 5.4em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.bigodes{
+    text-align: center;
+   
+}
+                                  /* Término das iamgens */
+.voltar-ao-topo{
+    text-align: center;
+    background-color: #7d0093;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: #7d0093;
+    width: 100%;
+}
+
+address {
+    padding: 10px 0;
+    font-style: normal;
+}
+               /* text > div está relacionado com a faixa de espaço de cada imagem */
+.text > div{
+display: flex;
+justify-content: center;
+}
+                                            /* fim do text > div*/
+
+                                    /* titulo eventos */
+.titulo{
+    text-align: center;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+                                 /* fim do titulo eventos */
+
+#local{
+   width: 100%;
+}
+
+                                    /* .imagens-estrutura - inicio */
+.estrutura{
+    text-align: center;
+    margin: 0.5;
+}
+                                    /* .imagens-estrutura - fim */
+
+form{
+    font-size: 1em;
+    max-width: 33em;
+    margin: 0 auto;
+    
+}
+
+h1{
+    color: #333
+}
+
+input, textarea{
+    width: 35.5em;
+   height: 3.5em;
+}
+
+.enviar input{
+    background: #32CD32;
+    height: 2.9em;
+    width: 11em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    background: #00FF00;
+}
+
+textarea {
+    width: 85%;
+    padding: 1em;
+    line-height: 1.7em;
+    margin: 1.3em
+}
+
+p{
+   margin: 0.8em;
+}
+
+input{
+    margin: 1.3em;
+}
+
+                                                                    /* menu mobile */
+         
+ #bt-mobile-menu{
+     display: none;
+ }
+@media (max-width: 600px) {
+    .text {
+        font-size: 1em;
+        margin: 1em;
+        flex-direction: column;
+        width: 30em;
+    }
+
+   
+
+    .voltar-ao-topo{
+        width: 100%;
+    }
+
+    .bigodes {
+        font-size: 1em;
+        margin: 1em;
+        flex-direction: column;
+        width: 30em;
+    }
+    .nav {
+        font-size: 1em;
+        padding: 3em 0 0 0;   
+    }
+
+    .logo-area > img {
+     position: relative;
+     float: right;
+    }
+
+    nav #bt-mobile-menu {
+        display: block;
+    }
+
+    nav .bt-common-menu {
+        display: none;
+    }
+
+    nav .bt-common-menu.active {
+        display: block;
+    }
+      
+    nav ul.mobile-mode {
+        display:flex;
+        flex-direction: column;
+    }
+
+
+.logo-area> strong {
+    -webkit-text-stroke: 2px #ffcc00;
+}
+}
+
+
+@media (max-width: 520px) {
+    .text {
+        font-size: 0.5em;
+        margin: 1em;
+        flex-direction: column;
+        width: 43em;
+    }
+
+    .voltar-ao-topo{
+        width: 100%;
+    }
+
+    .bigodes {
+        font-size: 1em;
+        margin: 1em;
+        flex-direction: column;
+        width: 20em;
+    }
+
+    .bigodes >img{
+        width: 20em;
+    }
+
+    .nav {
+        font-size: 1em;
+        padding: 3em 0 0 0;   
+    }
+
+    .logo-area > img {
+     position: relative;
+     float: right;
+    }
+
+    input, textarea{
+        width: 20.5em;
+       height: 2.5em;
+}
+}
