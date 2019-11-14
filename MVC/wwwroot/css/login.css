@@ -18,7 +18,7 @@ nav ul{
     font-size: 1.3em;
     height: 4.5em;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav a {
@@ -136,4 +136,5 @@ input, textarea{
        display:flex;
        flex-direction: column;
    }
+}
 }

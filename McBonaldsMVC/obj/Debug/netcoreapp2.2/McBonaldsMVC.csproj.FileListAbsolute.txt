@@ -32,7 +32,6 @@ C:\Users\50345891848\Documents\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreap
 C:\Users\50345891848\Documents\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Index.g.cshtml.cs
 C:\Users\50345891848\Documents\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.g.cshtml.cs
 C:\Users\50345891848\Documents\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
-C:\Users\50345891848\Documents\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Pedidos\Index.g.cshtml.cs
 C:\Users\lucas\Desktop\exercicios-senai\McBonaldsMVC\bin\Debug\netcoreapp2.2\McBonaldsMVC.deps.json
 C:\Users\lucas\Desktop\exercicios-senai\McBonaldsMVC\bin\Debug\netcoreapp2.2\McBonaldsMVC.runtimeconfig.json
 C:\Users\lucas\Desktop\exercicios-senai\McBonaldsMVC\bin\Debug\netcoreapp2.2\McBonaldsMVC.runtimeconfig.dev.json
@@ -68,3 +67,4 @@ C:\Users\lucas\Desktop\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\McB
 C:\Users\lucas\Desktop\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.dll
 C:\Users\lucas\Desktop\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.pdb
 C:\Users\lucas\Desktop\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.csproj.CopyComplete
+C:\Users\50345891848\Documents\exercicios-senai\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Pedido\Index.g.cshtml.cs

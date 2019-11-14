@@ -13,12 +13,12 @@ body{
 }
 
 nav ul{
-    display: flex;
+    
     list-style-type: none;
     font-size: 1.3em;
     height: 4.5em;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav a {

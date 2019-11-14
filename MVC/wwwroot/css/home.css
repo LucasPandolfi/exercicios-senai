@@ -52,7 +52,7 @@ nav a:hover {
     list-style-type: none;
     text-align: center;
     overflow: hidden;
-    width: 27em;
+    width: 33em;
 }
 
 .imagens-estrutura{
@@ -64,7 +64,7 @@ nav a:hover {
     text-align: center;
     justify-content: space-around;
     overflow: hidden;
-    width: 33em;
+    width: 44em;
     padding: 10px 0;
 }
 

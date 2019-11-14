@@ -1,0 +1,86 @@
+<main>
+    <h1>Alugar</h1>
+
+    <form name="formteste" action="Alugar.html" method="POST">
+       <div class="triste">
+        <div class="teste">
+            <input type="text" name="nome do evento" placeholder="Informe o nome do evento" required>
+        </div>
+        
+        <div class="teste">
+            <textarea name="descrição" placeholder="Descreva seu evento"></textarea>
+        </div>
+    </div>
+        
+    </form>
+
+
+    <div class="priv-púb">
+        <input type="radio" name="opção" value="Privado"/>Privado<br />
+        <input type="radio" name="opção" value="Público"/>Público<br />
+    </div>
+
+    <h2>Escolha a data e hora do evento</h2>
+
+         <form name="formteste" method="GET" action="script.php">
+        <div class="triste">
+            <label for="data">Data do evento:</label>
+            <input type="date" id="data" name="dataevento">
+            <br>
+
+            <label for="hora">Inicio do evento:</label>
+            <input type="time" id="hora" name="horadoevento">
+            <br>
+
+            <label for="hora">Término do evento:</label>
+            <input type="time" id="hora" name="horadoevento">
+        </div>
+         </form>
+    <br>
+    <div class="escolhas">
+
+        <input type="checkbox" name="alugar" value="preço/alugar" required/><br>Alugar: R$ 10.000,00<br />
+
+    <H2>Serviços opcionais:</H2>
+
+        <input type="checkbox" name="iluminação" value="Iluminação"/><br>Iluminação: R$ 800,00<br />
+        <input type="checkbox" name="som" value="Som"/><br>Som: R$ 1.000,00<br />    
+
+    </div>
+
+    <h2>Formas de pagamento</h2>
+
+<div class="formas-de-pagamento">
+    
+     <div class="card">   
+        <input id="card" type="radio" name="card" value="card"/><br>
+        <label for="card"><i class="fab fa-cc-mastercard"></i></label><br />
+    </div>
+
+    <div class="card">
+        <input id="card1" type="radio" name="card" value="card"/><br>
+        <label for="card1"><i class="fab fa-cc-visa"></i></label><br />
+    </div>
+
+    <div class="card">
+        <input id="card2" type="radio" name="card" value="card"/><br>
+        <label for="card2"><i class="fab fa-cc-paypal"></i></label><br />
+    </div>
+
+</div>
+
+<form  name="formteste" action="Alugar.html" method="POST">
+
+     <div class="botão">
+    
+        <div class="botão-recusar">
+            <input type="submit" name="recusar" value="Recusar">
+        </div>
+
+        <div class="botão-aceitar">
+            <input type="submit" name="aceitar" value="aceitar">
+        </div>
+
+    </div>    
+</form>
+</main>
