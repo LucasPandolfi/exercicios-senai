@@ -17,7 +17,7 @@
             <div>
                 <label for="telefone">Telefone para contato</label>
                 <br />
-                <input id="telefone" type="text" disabled name="telefone"/>
+                <input id="telefone" type="text" name="telefone"/>
             </div>
 
             <div>
@@ -42,9 +42,10 @@
                     <label for="shake">Shake</label>
                     <select id="shake" name="shake" >
                         <option value="" disabled selected>Selecione</option>
-                        <option value="chocolate">Chocolate</option>
-                        <option value="biscoito">Biscoito</option>
-                        <option value="morango">Morango</option>
+                        @foreach (var shake in Model.shake)
+                        {
+                            <option value=@shake.Nome>@shake.Nome por @shake.Preco</option>
+                        }
                     </select>
                 </div>
             </div>
