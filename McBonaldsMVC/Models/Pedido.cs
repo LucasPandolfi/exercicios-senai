@@ -12,5 +12,12 @@ namespace McBonaldsMVC.Models
         public DateTime DataDoPedido {get;set;}
 
         public double PrecoTotal {get;set;}
+
+        public Pedido()
+        {
+            this.cliente = new Cliente();
+            this.Hamburguer = new Hamburguer();
+            this.Shake = new Shake();
+        }
     }
 }
