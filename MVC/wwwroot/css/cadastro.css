@@ -1,14 +1,10 @@
-*{
-    margin: 0;
-}
-
                                       /* Inicio - menu de navegação */
 
 body{
     background-image: linear-gradient(to bottom,#ffc600,#fff 40%,#C9A939);
 } 
 
- nav{
+nav{
     background-color:#7d0093
 }
 
@@ -58,6 +54,11 @@ h1{
 input, textarea{
     width: 30.5em;
     padding: 1em;
+}
+
+input, textarea{
+    width: 22em;
+    height: 2.6em;
 }
 
 .criar input{
@@ -121,11 +122,7 @@ p{
         
     }
  }
- 
- input, textarea{
-     width: 22em;
-     height: 2.6em;
- }
+
  
  @media (max-width: 600px) {
     .logo-area > img {
@@ -150,3 +147,4 @@ p{
         flex-direction: column;
     }
  }
+}

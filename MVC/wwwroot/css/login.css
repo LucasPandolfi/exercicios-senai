@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-}
-
                                             /* inicio - nav */
 
 body{
@@ -78,12 +74,18 @@ input, textarea{
 .voltar-ao-topo{
     text-align: center;
     background-color: #7d0093;
+    margin-top: 27.1em;
     justify-content: flex-end;
 }
 
 p{
     margin: 1em;
     text-align: center;
+}
+
+input, textarea{
+    width: 22em;
+    height: 1em;
 }
 
 input{
@@ -109,10 +111,6 @@ input{
    }
 }
 
-input, textarea{
-    width: 22em;
-    height: 2.6em;
-}
 
 @media (max-width: 600px) {
    .logo-area > img {

@@ -1,0 +1,42 @@
+<main>
+    <form name="formteste" action='@Url.Action("CadastrarCliente", "Cadastro")' method="POST">
+        <h1>Cadastro</h1>
+
+    <div cadastro>
+
+        <div class="email"> 
+            <input type="email" name="email" placeholder="Informe seu e-mail" required="required">
+        </div>
+
+        <div class="senha">
+            <input type="password" name="email" placeholder="Crie uma senha" required="required">
+        </div>
+
+        <div class="cpf/cnpj">
+            <input type="text" name="cpf/cnpj" placeholder="Informe seu cpf/cnpj" required="required">
+        </div>
+
+        <div  class="nome">
+            <input type="text" name="nome" placeholder="Informe seu nome" required="required"> 
+        </div>
+
+        <div class="data de nascimento">
+            <input type="text" name="data de nascimento" placeholder="21/05/2001" required="required">
+        </div>
+
+        <div class="telefone">
+            <input type="text" name="telefone" placeholder="(11) 98415-5212">
+        </div>
+
+        <div class="criar">
+            <input type="submit" name="criar" value="Criar">
+        </div>
+    </div>
+</form>
+
+            <p>Fique tranquilo, nosso site é seguro!!</p>
+            <p>Já possui uma conta??</p> 
+            <div class="Fazer_login">
+                <p><a href='@Url.Action("Login", "Login")'>Fazer login</a></p>
+            </div>
+</main>

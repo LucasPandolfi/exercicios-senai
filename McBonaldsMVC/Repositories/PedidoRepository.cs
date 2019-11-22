@@ -55,8 +55,8 @@ namespace McBonaldsMVC.Repositories
                 pedido.Hamburguer.Preco = double.Parse(ExtrairValorDoCampo("hamburguer_preco", linha));
                 pedido.Shake.Nome = ExtrairValorDoCampo("shake_nome", linha);
                 pedido.Shake.Preco = double.Parse(ExtrairValorDoCampo("shake_preco", linha));
-                pedido.PrecoTotal = double.Parse(ExtrairValorDoCampo("preco_total", linha));
                 pedido.DataDoPedido = DateTime.Parse(ExtrairValorDoCampo("data_pedido", linha));
+                pedido.PrecoTotal = double.Parse(ExtrairValorDoCampo("preco_total", linha));
 
                 pedidos.Add(pedido);
             }
@@ -71,7 +71,7 @@ namespace McBonaldsMVC.Repositories
             Hamburguer h = pedido.Hamburguer;
             Shake s = pedido.Shake;
 
-            return $"cliente_nome={c.Nome}; cliente_endereco={c.Endereco}; cliente_telefone={c.Telefone}; cliente_email={c.Email}; hamburguer_nome={h.Nome}; hamburguer_preco={h.Preco}; shake_nome{s.Nome}; shake_preco={s.Preco}; data_pedido={pedido.DataDoPedido}; preco_total={pedido.PrecoTotal}";
+            return $"cliente_nome={c.Nome};cliente_endereco={c.Endereco};cliente_telefone={c.Telefone};cliente_email={c.Email};hamburguer_nome={h.Nome};hamburguer_preco={h.Preco};shake_nome{s.Nome};shake_preco={s.Preco};data_pedido={pedido.DataDoPedido};preco_total={pedido.PrecoTotal}";
         }
     }
 }

@@ -98,3 +98,4 @@ C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\MVC.Views.
 C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\MVC.dll
 C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\MVC.pdb
 C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\MVC.csproj.CopyComplete
+C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Cadastro.g.cshtml.cs
