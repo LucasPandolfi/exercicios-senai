@@ -86,6 +86,9 @@ nav {
     z-index: 999;
 }
 
+/*
+    PASSO 7 - Copie esse estilo abaixo para perto dos seus estilos de NAV
+*/
 nav #bt-mobile-menu {
     display: none;
 }
@@ -323,6 +326,43 @@ address {
     padding-left: 0.7em;
 }
 
+table {
+    text-align: center;
+    color: #fff;
+    border: 1px dashed #ff9933;
+    width: 100%;
+    padding: 5px;
+    word-break: normal;
+}
+
+table th {
+    background-color:#a70000;
+}
+
+table a {
+    text-decoration: none;
+    color: #ff9933;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+tfoot td {
+    text-align: center;
+    color: #ff9933;
+    background-color: #a70000;
+}
+
+thead > tr:first-child > th:last-child {
+    padding: 0 .5em;
+}
+
+.mensagem {
+    color: #fff;
+    font-weight: bold;
+}
+
 @media (max-width: 1200px) {
     #banner p {
         font-size: 1.6em;
@@ -386,7 +426,10 @@ address {
     #banner p > strong {
         -webkit-text-stroke: 2px #ffcc00;
     }
-
+/*
+    PASSO 8 - Copie esses estilos (até a próxima linha pontilhada)
+    para DENTRO da sua media query para tamanho mobile
+*/
     nav #bt-mobile-menu {
         display: block;
     }
@@ -403,6 +446,9 @@ address {
         display: flex;
         flex-direction: column;
     }
+    /*
+    --------------------------------------------------------------------
+    */
 
     #historia .flex-group {
         flex-direction: column;

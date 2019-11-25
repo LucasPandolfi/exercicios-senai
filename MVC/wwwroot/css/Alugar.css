@@ -92,7 +92,7 @@ input, textarea{
 
 textarea{
     width: 88%;
-    
+    justify-content: flex-end;
     line-height: 1.7em;
     margin: 1.3em
 }
@@ -142,6 +142,9 @@ input{
 textarea{
     text-align: center;
 }
+textarea{
+    width: 15em;
+}
 
 .voltar-ao-topo{
     text-align: center;
@@ -181,9 +184,6 @@ textarea{
     
  }
 
- textarea{
-     width: 15em;
- }
 
  .botão, .botão-aceitar{
      width: 23.3em;

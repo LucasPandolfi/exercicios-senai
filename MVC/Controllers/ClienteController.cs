@@ -1,11 +1,15 @@
 using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MVC.Repositories;
+using MVC.ViewModels;
 
 namespace MVC.Controllers
 {
-    public class ClienteController : Controller
+    public class ClienteController : AbstractController
     {
+        ClienteRepository clienteRepository = new ClienteRepository();
+
         [HttpGet]
         public IActionResult Login()
         {
@@ -14,7 +18,7 @@ namespace MVC.Controllers
         [HttpPost]
         public IActionResult Login(IFormCollection form)
         {
-            ViewData["Action"] = "Cadastro";
+            ViewData["Action"] = "Login";
             try
             {
                 System.Console.WriteLine("========================");
@@ -22,7 +26,29 @@ namespace MVC.Controllers
                 System.Console.WriteLine(form["senha"]);
                 System.Console.WriteLine("========================");
 
-                return View("Sucesso");
+                var usuario = form["email"];
+                var senha = form["senha"];
+
+                var cliente = clienteRepository.ObterPor(usuario);
+
+                if(cliente != null)
+                {
+                    if(cliente.Senha.Equals(senha))
+                    {
+                        HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL, usuario);
+                        HttpContext.Session.SetString(SESSION_CLIENTE_NOME, cliente.Nome);
+                        return RedirectToAction("Historico", "Cliente");//Aqui estamos usando redirecttoaction pois, ele irá "matar o viewdata"
+                    }
+                    else
+                    {
+                        return View("Erro", new RespostaViewModel("Senha incorreta")); 
+                    }
+                }
+                else
+                {
+                    return View("Erro", new RespostaViewModel($"Usuário {usuario} não encontrado")); //Ao inves de chamar esta mensagem salvando ela em uma variavel, neste caso como é uma pequena mensagem, basta instanciar o objeto dentro do parametro
+                }
+
             }
             catch(Exception e)
             {

@@ -36,6 +36,10 @@ namespace McBonaldsMVC.Controllers
                 pvm.NomeCliente = nomeUsuario;
             }
 
+            pvm.NomeView = "Pedido";
+            pvm.UsuarioEmail = emailCliente;
+            pvm.UsuarioNome = nomeUsuario;
+
             return View(pvm);
         }
 
