@@ -73,7 +73,7 @@ namespace McBonaldsMVC.Controllers
 
             if(pedidoRepository.Inserir(pedido))
             { 
-            return View("Sucesso", new BaseViewModel() 
+            return View("Sucesso", new RespostaViewModel() 
             {
                 NomeView = "Pedido",
                 UsuarioEmail = ObterUsuarioSession(),
@@ -82,7 +82,7 @@ namespace McBonaldsMVC.Controllers
             }
             else
             {
-                return View("Erro", new RespostaViewModel("Mensagem"));
+                return View("Erro");
             }
         }
     }

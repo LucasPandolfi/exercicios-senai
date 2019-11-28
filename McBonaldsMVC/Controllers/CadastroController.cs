@@ -29,17 +29,17 @@ namespace McBonaldsMVC.Controllers
 
                 clienteRepository.Inserir(cliente);
                 
-                return View("Sucesso", new BaseViewModel()
-            {
-                NomeView = "Cadastro",
-                UsuarioEmail = ObterUsuarioSession(),
-                UsuarioNome = ObterUsuarioNomeSession()
-            });
+                return View("Sucesso", new RespostaViewModel()
+                {
+                    NomeView = "Cadastro",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
             }
             catch(Exception e)
             {
                 System.Console.WriteLine(e.StackTrace);
-                return View("Erro", new RespostaViewModel("Mensagem"));
+                return View("Erro");
             }
         }
     }
