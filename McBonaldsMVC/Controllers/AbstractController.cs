@@ -7,6 +7,8 @@ namespace McBonaldsMVC.Controllers
     {
         protected const string SESSION_CLIENTE_EMAIL = "email_cliente";//Criamos o abstract para fazer uma ponte entre o pedidocontroller e o clientecontroller
         protected const string SESSION_CLIENTE_NOME= "nome_cliente";
+        protected const string SESSION_CLIENTE_TIPO= "nome_tipo";
+
 
         protected string ObterUsuarioSession()
         {
@@ -14,6 +16,19 @@ namespace McBonaldsMVC.Controllers
             if(!string.IsNullOrEmpty(usuario))
             {
                 return usuario;
+            }
+            else
+            {
+                return "";
+            }
+        }
+
+        protected string ObterUsuarioTipoSession()
+        {
+            var tipousuario = HttpContext.Session.GetString(SESSION_CLIENTE_TIPO);
+            if(!string.IsNullOrEmpty(tipousuario))
+            {
+                return tipousuario;
             }
             else
             {
