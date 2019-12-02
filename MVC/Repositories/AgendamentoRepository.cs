@@ -15,7 +15,7 @@ namespace MVC.Repositories
             }
         }
 
-        public bool Inserir(Eventos eventos)
+        public bool Inserir(Agendamento eventos)
         {
             return true;
         }

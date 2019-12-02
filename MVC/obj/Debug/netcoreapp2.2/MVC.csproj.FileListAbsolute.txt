@@ -62,7 +62,6 @@ C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\MVC.
 C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\MVC.pdb
 C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\MVC.csproj.CopyComplete
 C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Alugar\Alugar.g.cshtml.cs
-C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Login\Login.g.cshtml.cs
 C:\Users\lucas\Documents\exercicios-senai\MVC\bin\Debug\netcoreapp2.2\MVC.deps.json
 C:\Users\lucas\Documents\exercicios-senai\MVC\bin\Debug\netcoreapp2.2\MVC.runtimeconfig.json
 C:\Users\lucas\Documents\exercicios-senai\MVC\bin\Debug\netcoreapp2.2\MVC.runtimeconfig.dev.json
@@ -136,3 +135,5 @@ C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
 C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.g.cshtml.cs
 C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
+C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Login.g.cshtml.cs
+C:\Users\50345891848\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Historico.g.cshtml.cs

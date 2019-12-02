@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-}
-
                                        /* Inicio - menu de navegação */
 
 body{
@@ -45,7 +41,7 @@ nav a:hover {
 }
 
                                     /* Fim - menu de navegação */
-                                
+
 form, .teste{
     
     width: 500px;
@@ -68,16 +64,22 @@ h1{
 h2{
     text-align: center;
     font-size: 1.6em;
+    margin-top: 1em;
 }
 
 .escolhas{
     text-align: center;
+    margin-top: 1em;
 }
 
 .formas-de-pagamento, .card{
     text-align: center;
     font-size: 1.5em;
-    
+    margin-top: 5em;
+}
+.formas-de-pagamento, .h2{
+    text-align: center;
+    font-size: 1.2em;
 }
 
 input{
@@ -198,26 +200,26 @@ textarea{
      justify-content: center;
  }
 
- .teste{
-     width: 18.9em;
-     margin: 0 auto;
- }
+.teste{
+    width: 18.9em;
+    margin: 0 auto;
+}
 
 
 
- h2 {
-     margin: 1em;
-     flex-direction: column;
-     width: 10em;
- }
+h2{
+    margin: 1em;
+    flex-direction: column;
+    width: 10em;
+}
 
 
 
- h1 {
-     margin: 1em;
-     flex-direction: column;
-     width: 10em;
- }
+h1{
+    margin: 1em;
+    flex-direction: column;
+    width: 10em;
+}
 
 
 
@@ -230,8 +232,8 @@ textarea{
 
 
 .logo-area > img {
- position: relative;
- float: right;
+position: relative;
+float: right;
 }
 
 nav #bt-mobile-menu {
@@ -245,12 +247,13 @@ nav .bt-common-menu {
 nav .bt-common-menu.active {
     display: block;
 }
-  
+
 nav ul.mobile-mode {
     display:flex;
     flex-direction: column;
 }
 }
+
 
 
 

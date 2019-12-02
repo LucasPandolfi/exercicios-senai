@@ -3,10 +3,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MVC.Models;
 using MVC.Repositories;
+using MVC.ViewModels;
 
 namespace MVC.Controllers
 {
-    public class CadastroController : Controller
+    public class CadastroController : AbstractController
     {
 
         ClienteRepository clienteRepository = new ClienteRepository();
@@ -24,7 +25,12 @@ namespace MVC.Controllers
 
                 clienteRepository.Inserir(cliente);
                 
-                return View("Sucesso");
+                return View("Sucesso", new RespostaViewModel()
+                {
+                    NomeView = "Cadastro",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
             }
             catch(Exception e)
             {

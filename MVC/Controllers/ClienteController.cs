@@ -13,7 +13,13 @@ namespace MVC.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            return View();
+            return View( new BaseViewModel()
+            {
+                NomeView = "Login",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+                
+            });
         }
         [HttpPost]
         public IActionResult Login(IFormCollection form)
@@ -37,7 +43,8 @@ namespace MVC.Controllers
                     {
                         HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL, usuario);
                         HttpContext.Session.SetString(SESSION_CLIENTE_NOME, cliente.Nome);
-                        return RedirectToAction("Historico", "Cliente");//Aqui estamos usando redirecttoaction pois, ele irá "matar o viewdata"
+                        return RedirectToAction("Historico", "Cliente");
+                        
                     }
                     else
                     {
@@ -46,15 +53,27 @@ namespace MVC.Controllers
                 }
                 else
                 {
-                    return View("Erro", new RespostaViewModel($"Usuário {usuario} não encontrado")); //Ao inves de chamar esta mensagem salvando ela em uma variavel, neste caso como é uma pequena mensagem, basta instanciar o objeto dentro do parametro
+                    return View("Erro", new RespostaViewModel($"Usuário {usuario} não encontrado")); 
                 }
 
             }
             catch(Exception e)
             {
                 System.Console.WriteLine(e.StackTrace);
-                return View("Erro");
+                return View("Erro", new RespostaViewModel(e.Message));
             }
+        }
+
+        public IActionResult Historico ()
+        {
+            var emailCliente = HttpContext.Session.GetString(SESSION_CLIENTE_EMAIL);
+
+            return View(new HistoricoViewModel()
+            {
+                NomeView = "Historico",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
         }
     }
 }

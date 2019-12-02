@@ -2,17 +2,21 @@ using System;
 
 namespace MVC.Models
 {
-    public class Eventos
+    public class Agendamento
     {
         public Cliente cliente {get;set;}
-        public string Informacoes {get;set;}
+        public string NomeEvento {get;set;}
+        public string Email {get;set;}
+        public string Cpf_cnpj {get;set;}
+        public string Telefone {get;set;}
+        public string pubpriv {get;set;}
         public Som som {get;set;}
         public Luz luz {get;set;}
-        public bool pubpriv {get;set;}
         public DateTime DataEvento {get;set;}
+        public string formasPagamento {get;set;}
         public double PrecoTotal {get;set;}
 
-        public Eventos()
+        public Agendamento()
         {
             this.cliente = new Cliente();
             this.luz = new Luz();

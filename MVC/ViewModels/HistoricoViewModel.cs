@@ -3,8 +3,8 @@ using MVC.Models;
 
 namespace MVC.ViewModels
 {
-    public class HistoricoViewModel
+    public class HistoricoViewModel : BaseViewModel
     {
-        public List<Eventos> eventos {get;set;}
+        public List<Agendamento> eventos {get;set;}
     }
 }

@@ -2966,6 +2966,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\50345891848\\Documents\\exercicios-senai\\MVC\\Views\\Cliente\\Login.cshtml",
+      "TargetPath": "Views\\Cliente\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\50345891848\\Documents\\exercicios-senai\\MVC\\Views\\Eventos\\Eventos.cshtml",
       "TargetPath": "Views\\Eventos\\Eventos.cshtml",
       "FileKind": "mvc"
@@ -2973,11 +2978,6 @@
     {
       "FilePath": "c:\\Users\\50345891848\\Documents\\exercicios-senai\\MVC\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\50345891848\\Documents\\exercicios-senai\\MVC\\Views\\Login\\Login.cshtml",
-      "TargetPath": "Views\\Login\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -3013,6 +3013,11 @@
     {
       "FilePath": "c:\\Users\\50345891848\\Documents\\exercicios-senai\\MVC\\Views\\Shared\\Sucesso.cshtml",
       "TargetPath": "Views\\Shared\\Sucesso.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\50345891848\\Documents\\exercicios-senai\\MVC\\Views\\Cliente\\Historico.cshtml",
+      "TargetPath": "Views\\Cliente\\Historico.cshtml",
       "FileKind": "mvc"
     },
     {

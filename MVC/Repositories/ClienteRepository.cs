@@ -37,7 +37,7 @@ namespace MVC.Repositories
                     c.DataNascimento = DateTime.Parse(ExtrairValorDoCampo("data_nascimento", item));
                     c.Telefone = ExtrairValorDoCampo("telefone", item);
                     c.Senha = ExtrairValorDoCampo("senha", item);
-                    c.Cpf = ExtrairValorDoCampo("cpf", item);
+                    c.Cpf_cnpj = ExtrairValorDoCampo("cpf", item);
 
                     return c;
                 }
@@ -48,7 +48,7 @@ namespace MVC.Repositories
 
         private string PrepararRegistroCSV(Cliente cliente)
         {
-            return $"email={cliente.Email},senha={cliente.Senha},cpf={cliente.Cpf},nome={cliente.Nome},data_nascimento={cliente.DataNascimento},telefone={cliente.Telefone}";
+            return $"email={cliente.Email},senha={cliente.Senha},cpf={cliente.Cpf_cnpj},nome={cliente.Nome},data_nascimento={cliente.DataNascimento},telefone={cliente.Telefone}";
         }
     }
 }
