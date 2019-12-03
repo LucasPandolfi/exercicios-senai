@@ -1,8 +1,9 @@
+@model MVC.ViewModels.AgendamentoViewModel
 <main>
     <h1>Alugar</h1>
 
-    <form name="formteste" action="Alugar.html" method="POST">
-       <div class="triste">
+    <form name="formteste" action= 'Url.Action()' method="POST">
+        <div class="triste">
         <div class="teste">
             <input type="text" name="nome do evento" placeholder="Informe o nome do evento" required>
         </div>
@@ -24,11 +25,11 @@
         </div>
     </div>
         
-    </form>
+
 
 
     <div class="priv-púb">
-        <select name="" id="som">
+        <select name="priv_pub" id="evento">
         <option value="" disabled selected>Evento público ou privado</option>
         <option value="" required>Privado</option><br />
         <option value="" required>Público</option><br />
@@ -37,14 +38,13 @@
 
     <h2>Escolha a data do evento</h2>
 
-        <form name="formteste" method="GET" action="script.php">
+        
         <div class="triste">
             
             <input type="date" id="data" name="dataevento">
             <br>
 
         </div>
-        </form>
     <br>
     <div class="escolhas">
 
@@ -52,13 +52,13 @@
 
     <H2>Serviços opcionais:</H2>
 
-        <select name="" id="som">
+        <select name="som" id="som">
         <option value="" disabled selected>Som</option>
-        <option value="" required>Som R$1000,00</option><br />
-        <option value="" required>Não adicionar</option><br />
+
+        <option value="" required></option><br />
         </select>
 
-        <select name="" id="luz">
+        <select name="iluminacao" id="luz">
         <option value="" disabled selected>Iluminação</option>
         <option value="" required>Iluminação R$800,00</option><br />
         <option value="" required>Não adicionar</option><br />
@@ -69,18 +69,20 @@
 <div class="formas-de-pagamento">
     
     <h2>Formas de pagamento</h2>
-        <select name="" id="som">
+        <select name="pagamento" id="Som">
         <option value="" disabled selected>Formas de pagamento</option>
-        <option value="" required>Cartão de crédito</option><br />
-        <option value="" required>PayPal</option><br />
-        <option value="" required>Boleto</option><br />
+        @foreach (var pagamento in Model.FormasDePagamento)
+        {
+        <option value="@pagamento">@pagamento</option><br />
+        }
+
         </select>
 
 </div>
 
-<form  name="formteste" action="Alugar.html" method="POST">
 
-     <div class="botão">
+
+        <div class="botão">
     
         <div class="botão-recusar">
             <input type="submit" name="recusar" value="Recusar">
