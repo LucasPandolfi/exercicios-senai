@@ -4,9 +4,6 @@
 
     <form name="formteste" action= 'Url.Action()' method="POST">
         <div class="triste">
-        <div class="teste">
-            <input type="text" name="nome do evento" placeholder="Informe o nome do evento" required>
-        </div>
 
         <div class="teste">
             <input type="text" name="Email" placeholder="Informe o seu E-mail" required>
@@ -21,12 +18,14 @@
         </div>
 
         <div class="teste">
+            <input type="text" name="nome_do_evento" placeholder="Informe o nome do evento" required>
+        </div>
+
+        <div class="teste">
             <textarea name="descrição" placeholder="Descreva seu evento"></textarea>
         </div>
     </div>
         
-
-
 
     <div class="priv-púb">
         <select name="priv_pub" id="evento">
@@ -52,7 +51,7 @@
 
     <H2>Serviços opcionais:</H2>
 
-        <select name="som" id="som">
+        <!-- <select name="som" id="som">
         <option value="" disabled selected>Som</option>
 
         <option value="" required></option><br />
@@ -62,7 +61,14 @@
         <option value="" disabled selected>Iluminação</option>
         <option value="" required>Iluminação R$800,00</option><br />
         <option value="" required>Não adicionar</option><br />
-        </select>
+        </select> -->
+        <div>
+        @foreach (var servicos in Model.servicos)
+        {
+        <input type="checkbox" id="servicos" value="@servicos" name="Servicos">
+        <label for="@servicos">@servicos</label>
+        }
+        </div>
     </div>
 
 
@@ -79,8 +85,6 @@
         </select>
 
 </div>
-
-
 
         <div class="botão">
     
