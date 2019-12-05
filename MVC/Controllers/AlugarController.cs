@@ -7,7 +7,7 @@ using MVC.ViewModels;
 
 namespace MVC.Controllers
 {
-    public class AlugarController : Controller
+    public class AlugarController : AbstractController
     {
         AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
         PagamentoRepository pagamentoRepository = new PagamentoRepository();
@@ -30,12 +30,31 @@ namespace MVC.Controllers
             cliente.Email = form["email"];
             cliente.Cpf_cnpj = form["cpf_cnpj"];
             cliente.Telefone = form["telefone"];
-            agendamento.NomeEvento = form["nome_evento"];
+            agendamento.NomeEvento = form["nome_do_evento"];
+            agendamento.DescricaoEvento = form["descricao"];
+            agendamento.Servicos = form["servicos"];
+            agendamento.pubpriv = form["priv_pub"];
+            agendamento.formasPagamento = form["pagamento"];
 
             agendamento.cliente = cliente;
 
             agendamento.DataEvento = DateTime.Now;
 
+            
+
+            if(agendamentoRepository.Inserir(agendamento))
+            { 
+            return View("Sucesso", new RespostaViewModel() 
+            {
+                NomeView = "Agendamento",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
+            }
+            else
+            {
+                return View("Erro", new RespostaViewModel());
+            }
         }
     }
 }

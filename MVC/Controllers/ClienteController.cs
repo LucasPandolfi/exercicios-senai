@@ -9,6 +9,7 @@ namespace MVC.Controllers
     public class ClienteController : AbstractController
     {
         ClienteRepository clienteRepository = new ClienteRepository();
+        AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
 
         [HttpGet]
         public IActionResult Login()
@@ -67,9 +68,11 @@ namespace MVC.Controllers
         public IActionResult Historico ()
         {
             var emailCliente = HttpContext.Session.GetString(SESSION_CLIENTE_EMAIL);
+            var agendamentosCliente = agendamentoRepository.ObterTodosPorCliente(emailCliente);
 
             return View(new HistoricoViewModel()
             {
+                eventos = agendamentosCliente,
                 NomeView = "Historico",
                 UsuarioEmail = ObterUsuarioSession(),
                 UsuarioNome = ObterUsuarioNomeSession()

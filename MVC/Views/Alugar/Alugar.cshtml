@@ -2,15 +2,15 @@
 <main>
     <h1>Alugar</h1>
 
-    <form name="formteste" action= 'Url.Action()' method="POST">
+    <form name="formteste" action= '@Url.Action("Registrar","Alugar")' method="POST">
         <div class="triste">
 
         <div class="teste">
-            <input type="text" name="Email" placeholder="Informe o seu E-mail" required>
+            <input type="text" name="email" placeholder="Informe o seu E-mail" required>
         </div>
 
         <div class="teste">
-            <input type="number" name="Cpf/cnpj" placeholder="Informe seu cpf/cnpj" required>
+            <input type="number" name="cpf_cnpj" placeholder="Informe seu cpf/cnpj" required>
         </div>
 
         <div class="teste">
@@ -22,16 +22,16 @@
         </div>
 
         <div class="teste">
-            <textarea name="descrição" placeholder="Descreva seu evento"></textarea>
+            <textarea name="descricao" placeholder="Descreva seu evento"></textarea>
         </div>
     </div>
         
 
-    <div class="priv-púb">
+    <div class="priv-pub">
         <select name="priv_pub" id="evento">
-        <option value="" disabled selected>Evento público ou privado</option>
-        <option value="" required>Privado</option><br />
-        <option value="" required>Público</option><br />
+        <option  disabled selected>Evento público ou privado</option>
+        <option  required>Privado</option><br />
+        <option  required>Público</option><br />
         </select>
     </div>
 
@@ -39,10 +39,8 @@
 
         
         <div class="triste">
-            
             <input type="date" id="data" name="dataevento">
             <br>
-
         </div>
     <br>
     <div class="escolhas">
@@ -65,7 +63,7 @@
         <div>
         @foreach (var servicos in Model.servicos)
         {
-        <input type="checkbox" id="servicos" value="@servicos" name="Servicos">
+        <input type="checkbox" id="servicos" value="@servicos" name="servicos">
         <label for="@servicos">@servicos</label>
         }
         </div>
@@ -76,7 +74,7 @@
     
     <h2>Formas de pagamento</h2>
         <select name="pagamento" id="Som">
-        <option value="" disabled selected>Formas de pagamento</option>
+        <option  disabled selected>Formas de pagamento</option>
         @foreach (var pagamento in Model.FormasDePagamento)
         {
         <option value="@pagamento">@pagamento</option><br />
@@ -87,10 +85,6 @@
 </div>
 
         <div class="botão">
-    
-        <div class="botão-recusar">
-            <input type="submit" name="recusar" value="Recusar">
-        </div>
 
         <div class="botão-aceitar">
             <input type="submit" name="aceitar" value="Tudo pronto!">

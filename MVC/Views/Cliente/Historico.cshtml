@@ -1,0 +1,30 @@
+@model MVC.ViewModels.HistoricoViewModel
+@{
+    ViewData["Title"] = "Agendamento - Rolê top";
+    ViewData["H2"] = "Histórico de eventos";
+}
+
+<main>
+    <h2>@ViewData["H2"]</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Nome do evento</th>
+                <th>Forma de pagamento</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach( var eventos in Model.eventos ) {
+                <tr>
+                    <td>@eventos.DataEvento</td>
+                    <td>@eventos.NomeEvento</td>
+                    <td>@eventos.formasPagamento</td>
+                    <td>@eventos.PrecoTotal</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</main>
