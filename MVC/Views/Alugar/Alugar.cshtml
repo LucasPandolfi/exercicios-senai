@@ -63,8 +63,8 @@
         <div>
         @foreach (var servicos in Model.servicos)
         {
-        <input type="checkbox" id="servicos" value="@servicos" name="servicos">
-        <label for="@servicos">@servicos</label>
+        <input type="checkbox" id="@servicos.Key" value="@servicos.Key" name="servicos">
+        <label for="@servicos.Key">@servicos.Key + @servicos.Value</label>
         }
         </div>
     </div>

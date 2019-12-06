@@ -5,6 +5,6 @@ namespace MVC.ViewModels
     public class AgendamentoViewModel : BaseViewModel
     {
         public List<string> FormasDePagamento = new List<string>();
-        public List<string> servicos = new List<string>();
+        public Dictionary<string, double> servicos = new Dictionary<string, double>();
     }
 }

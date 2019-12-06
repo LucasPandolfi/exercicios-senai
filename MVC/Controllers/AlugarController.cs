@@ -35,12 +35,15 @@ namespace MVC.Controllers
             agendamento.Servicos = form["servicos"];
             agendamento.pubpriv = form["priv_pub"];
             agendamento.formasPagamento = form["pagamento"];
+            
 
             agendamento.cliente = cliente;
 
             agendamento.DataEvento = DateTime.Now;
 
-            
+            double precoDefinitivo = servicosRepository.ObterPrecoTotal(agendamento.Servicos);
+
+            agendamento.PrecoTotal = precoDefinitivo;
 
             if(agendamentoRepository.Inserir(agendamento))
             { 
