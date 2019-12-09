@@ -1,3 +1,4 @@
+<link href="css/home.css" rel="stylesheet" type="text/css">
 @model MVC.ViewModels.HistoricoViewModel
 @{
     ViewData["Title"] = "Agendamento - Rolê top";
@@ -11,6 +12,7 @@
             <tr>
                 <th>Data</th>
                 <th>Nome do evento</th>
+                <th>Descrição do evento</th>
                 <th>Forma de pagamento</th>
                 <th>Preço</th>
             </tr>
@@ -20,6 +22,7 @@
                 <tr>
                     <td>@eventos.DataEvento</td>
                     <td>@eventos.NomeEvento</td>
+                    <td>@eventos.DescricaoEvento</td>
                     <td>@eventos.formasPagamento</td>
                     <td>@eventos.PrecoTotal</td>
                 </tr>

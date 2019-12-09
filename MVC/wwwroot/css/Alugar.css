@@ -42,23 +42,23 @@ nav a:hover {
 
                                     /* Fim - menu de navegação */
 
-form, .teste{
-    
-    width: 500px;
+.teste
+{    
+    width: 10em;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
 }
 
-.priv-púb{
-    
-    max-width: 500px;
-    margin: 0 auto;
+.priv-pub
+{  
+   justify-content: center;
     text-align: center;
 }
 
 h1{
     text-align: center;
+    justify-content: center;
 }
 
 h2{
@@ -72,14 +72,29 @@ h2{
     margin-top: 1em;
 }
 
-.formas-de-pagamento, .card{
+.servicos_opcionais
+{
+    margin-top: 15em;
+}
+
+.formas-de-pagamento, .card
+{
     text-align: center;
     font-size: 1.5em;
     margin-top: 5em;
 }
-.formas-de-pagamento, .h2{
+
+.formas-de-pagamento, .h2
+{
     text-align: center;
     font-size: 1.2em;
+}
+
+.triste
+{
+    width: 5em;
+   padding: 20px;
+   justify-content: center;
 }
 
 input{
@@ -88,8 +103,7 @@ input{
 
 input, textarea{
     width: 35.4em;
-   padding: 20px;
-   justify-content: center;
+    justify-content: center;
 }
 
 textarea{
@@ -145,7 +159,7 @@ textarea{
     text-align: center;
 }
 textarea{
-    width: 15em;
+    width: 35.5em;
 }
 
 .voltar-ao-topo{

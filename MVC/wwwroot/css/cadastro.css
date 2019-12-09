@@ -14,7 +14,7 @@ nav ul{
     font-size: 1.3em;
     height: 4.5em;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav a {
@@ -45,20 +45,25 @@ form{
     font-size: 1em;
     max-width: 33em;
     margin: 0 auto;
+    text-align: center;
+}
+
+.cadastro
+{
+    justify-content: center;
+    text-align: center;
 }
 
 h1{
     color: #333
 }
 
-input, textarea{
-    width: 30.5em;
-    padding: 1em;
-}
+
 
 input, textarea{
-    width: 22em;
+    width: 30.5em;
     height: 2.6em;
+    text-align: center;
 }
 
 .criar input{
