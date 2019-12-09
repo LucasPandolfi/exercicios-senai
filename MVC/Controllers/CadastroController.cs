@@ -13,7 +13,13 @@ namespace MVC.Controllers
         ClienteRepository clienteRepository = new ClienteRepository();
         public IActionResult Cadastro()
         {
-            return View();
+            return View(new BaseViewModel()
+            {
+                NomeView = "Home",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+                
+            });
         }
 
         public IActionResult CadastrarCliente(IFormCollection form)

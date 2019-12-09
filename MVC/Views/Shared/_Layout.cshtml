@@ -11,6 +11,7 @@
     <link href="~/css/eventos.css" rel="stylesheet" type="text/css">
     <link href="~/css/galeria.css" rel="stylesheet" type="text/css">   
     <link href="~/css/cadastro.css" rel="stylesheet" type="text/css">
+    <link href="~/css/pgModel.css" rel="stylesheet" type="text/css">
 
     <title>home</title>
 </head>
@@ -31,7 +32,16 @@
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Eventos" asp-action="Eventos">Eventos</a></li>
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Galeria" asp-action="Galeria">Galeria</a></li>
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Alugar" asp-action="Alugar">Alugar</a></li>
+                    @if(string.IsNullOrEmpty(@Model.UsuarioEmail))
+                    { 
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Cliente" asp-action="Login">Login/Cadastro</a></li>
+                    }
+                    else
+                    {
+                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Cliente" asp-action="Logoff">Logoff</a></li>
+                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Cliente" asp-action="Historico">Meus eventos</a></li>
+
+                    }
                 </ul>
         </nav>
     </header>

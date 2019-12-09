@@ -1,12 +1,19 @@
 using Microsoft.AspNetCore.Mvc;
+using MVC.ViewModels;
 
 namespace MVC.Controllers
 {
-    public class EventosController : Controller
+    public class EventosController : AbstractController
     {
         public IActionResult Eventos()
         {
-            return View();
+            return View(new BaseViewModel()
+            {
+                NomeView = "Eventos",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+                
+            });
         }
     }
 }

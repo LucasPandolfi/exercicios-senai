@@ -18,13 +18,13 @@
             </tr>
         </thead>
         <tbody>
-            @foreach( var eventos in Model.eventos ) {
+            @foreach( var agendamento in Model.agendamento ) {
                 <tr>
-                    <td>@eventos.DataEvento</td>
-                    <td>@eventos.NomeEvento</td>
-                    <td>@eventos.DescricaoEvento</td>
-                    <td>@eventos.formasPagamento</td>
-                    <td>@eventos.PrecoTotal</td>
+                    <td>@agendamento.DataEvento</td>
+                    <td>@agendamento.NomeEvento</td>
+                    <td>@agendamento.DescricaoEvento</td>
+                    <td>@agendamento.formasPagamento</td>
+                    <td>@agendamento.PrecoTotal</td>
                 </tr>
             }
         </tbody>

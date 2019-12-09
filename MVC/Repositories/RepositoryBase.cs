@@ -7,7 +7,7 @@ namespace MVC.Repositories
             var chave = nomeCampo;
 
             var indiceChave = linha.IndexOf(chave);
-            var indiceTerminal = linha.IndexOf(",", indiceChave);
+            var indiceTerminal = linha.IndexOf(";", indiceChave);
 
             var valor = "";
 

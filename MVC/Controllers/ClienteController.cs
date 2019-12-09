@@ -72,11 +72,20 @@ namespace MVC.Controllers
 
             return View(new HistoricoViewModel()
             {
-                eventos = agendamentosCliente,
+                agendamento = agendamentosCliente,
                 NomeView = "Historico",
                 UsuarioEmail = ObterUsuarioSession(),
                 UsuarioNome = ObterUsuarioNomeSession()
             });
+        }
+
+        
+        public IActionResult Logoff()
+        {
+            HttpContext.Session.Remove(SESSION_CLIENTE_EMAIL);
+            HttpContext.Session.Remove(SESSION_CLIENTE_NOME);
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
         }
     }
 }

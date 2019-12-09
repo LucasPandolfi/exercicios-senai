@@ -117,7 +117,6 @@ C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Galeria\Galeria.g.cshtml.cs
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
-C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Login\Login.g.cshtml.cs
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
@@ -140,3 +139,5 @@ C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\View
 C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Login.g.cshtml.cs
 C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.g.cshtml.cs
 C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
+C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Historico.g.cshtml.cs
+C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Login.g.cshtml.cs

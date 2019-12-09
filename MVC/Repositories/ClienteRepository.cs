@@ -48,7 +48,7 @@ namespace MVC.Repositories
 
         private string PrepararRegistroCSV(Cliente cliente)
         {
-            return $"email={cliente.Email},senha={cliente.Senha},cpf={cliente.Cpf_cnpj},nome={cliente.Nome},data_nascimento={cliente.DataNascimento},telefone={cliente.Telefone}";
+            return $"email={cliente.Email};senha={cliente.Senha};cpf={cliente.Cpf_cnpj};nome={cliente.Nome};data_nascimento={cliente.DataNascimento};telefone={cliente.Telefone}";
         }
     }
 }

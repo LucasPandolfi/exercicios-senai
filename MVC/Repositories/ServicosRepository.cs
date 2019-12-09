@@ -45,7 +45,7 @@ namespace MVC.Repositories
 
             if(!string.IsNullOrEmpty(ServicosAdicionais))
             {
-                string[] servico = ServicosAdicionais.Split(";");
+                string[] servico = ServicosAdicionais.Split(",");
 
                 for (int i = 0; i < servico.Length; i++)
                 {

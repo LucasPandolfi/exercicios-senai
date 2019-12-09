@@ -19,6 +19,16 @@ namespace MVC.Controllers
             avm.FormasDePagamento = pagamentoRepository.ObterTodos();
             avm.servicos = servicosRepository.ObterTodos();
 
+            var usuarioLogado = ObterUsuarioSession();
+            var nomeUsuarioLogado = ObterUsuarioNomeSession();
+            if(!string.IsNullOrEmpty(nomeUsuarioLogado))
+            {
+                avm.NomeUsuario = nomeUsuarioLogado;
+            }
+            avm.NomeView = "Reservar";
+            avm.UsuarioEmail = usuarioLogado;
+            avm.UsuarioNome = nomeUsuarioLogado; 
+
             return View(avm);
         }
 
@@ -35,7 +45,6 @@ namespace MVC.Controllers
             agendamento.Servicos = form["servicos"];
             agendamento.pubpriv = form["priv_pub"];
             agendamento.formasPagamento = form["pagamento"];
-            
 
             agendamento.cliente = cliente;
 
