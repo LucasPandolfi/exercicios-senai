@@ -3031,6 +3031,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\50345891848\\Desktop\\exercicios-senai\\MVC\\Views\\Administrador\\Dashboard.cshtml",
+      "TargetPath": "Views\\Administrador\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\50345891848\\Desktop\\exercicios-senai\\MVC\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"

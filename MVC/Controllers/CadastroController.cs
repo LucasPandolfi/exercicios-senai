@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MVC.Enums;
 using MVC.Models;
 using MVC.Repositories;
 using MVC.ViewModels;
@@ -28,6 +29,8 @@ namespace MVC.Controllers
             try
             {
                 Cliente cliente = new Cliente(form["email"], form["senha"], form["cpf"], form["nome"], DateTime.Parse(form["data_nascimento"]), form["telefone"]);
+
+                cliente.TipoUsuario = (uint) TiposUsuario.CLIENTE;
 
                 clienteRepository.Inserir(cliente);
                 

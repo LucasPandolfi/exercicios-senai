@@ -32,6 +32,7 @@ namespace MVC.Repositories
                 if(ExtrairValorDoCampo("email", item).Equals(email))
                 {
                     Cliente c = new Cliente();
+                    c.TipoUsuario = uint.Parse(ExtrairValorDoCampo("tipo_usuario", item));
                     c.Nome = ExtrairValorDoCampo("nome", item);
                     c.Email = ExtrairValorDoCampo("email", item);
                     c.DataNascimento = DateTime.Parse(ExtrairValorDoCampo("data_nascimento", item));
@@ -48,7 +49,7 @@ namespace MVC.Repositories
 
         private string PrepararRegistroCSV(Cliente cliente)
         {
-            return $"email={cliente.Email};senha={cliente.Senha};cpf={cliente.Cpf_cnpj};nome={cliente.Nome};data_nascimento={cliente.DataNascimento};telefone={cliente.Telefone}";
+            return $"tipo_usuario={cliente.TipoUsuario};email={cliente.Email};senha={cliente.Senha};cpf={cliente.Cpf_cnpj};nome={cliente.Nome};data_nascimento={cliente.DataNascimento};telefone={cliente.Telefone}";
         }
     }
 }

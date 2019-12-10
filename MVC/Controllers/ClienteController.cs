@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MVC.Enums;
 using MVC.Repositories;
 using MVC.ViewModels;
 
@@ -42,10 +43,22 @@ namespace MVC.Controllers
                 {
                     if(cliente.Senha.Equals(senha))
                     {
-                        HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL, usuario);
-                        HttpContext.Session.SetString(SESSION_CLIENTE_NOME, cliente.Nome);
-                        return RedirectToAction("Historico", "Cliente");
-                        
+                        switch(cliente.TipoUsuario)
+                        {
+                            case (uint) TiposUsuario.CLIENTE:
+                                HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL, usuario);
+                                HttpContext.Session.SetString(SESSION_CLIENTE_NOME, cliente.Nome);
+                                HttpContext.Session.SetString(SESSION_CLIENTE_TIPO, cliente.TipoUsuario.ToString());
+                                
+                                return RedirectToAction("Historico", "Cliente");//Aqui estamos usando redirecttoaction pois, ele irá "matar o viewdata"
+                            
+                            default:
+                                HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL, usuario);
+                                HttpContext.Session.SetString(SESSION_CLIENTE_NOME, cliente.Nome);
+                                HttpContext.Session.SetString(SESSION_CLIENTE_TIPO, cliente.TipoUsuario.ToString());
+
+                                return RedirectToAction("Dashboard", "Administrador");
+                        }
                     }
                     else
                     {

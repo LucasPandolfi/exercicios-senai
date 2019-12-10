@@ -4,7 +4,8 @@ using System.IO;
 using MVC.Models;
 
 namespace MVC.Repositories {
-    public class AgendamentoRepository : RepositoryBase {
+    public class AgendamentoRepository : RepositoryBase 
+    {
         private const string PATH = "Database/Agendamento.csv";
 
         public AgendamentoRepository () 
@@ -17,10 +18,9 @@ namespace MVC.Repositories {
 
         public bool Inserir (Agendamento agendamento) 
         {
-            var linha = new string[] 
-            { 
-                PrepararAgendamentoCSV (agendamento) 
-            };
+            var quantidadeAgendamentos = File.ReadAllLines(PATH).Length;
+            agendamento.Id = (ulong) ++quantidadeAgendamentos;
+            var linha = new string[] { PrepararAgendamentoCSV (agendamento)};
             File.AppendAllLines (PATH, linha);
 
             return true;
@@ -46,6 +46,9 @@ namespace MVC.Repositories {
             foreach (var linha in linhas) 
             {
                 Agendamento agendamento = new Agendamento ();
+
+                agendamento.Id = ulong.Parse(ExtrairValorDoCampo("id", linha));
+                agendamento.Status = uint.Parse(ExtrairValorDoCampo("status_agendamento", linha));
                 agendamento.cliente.Email = ExtrairValorDoCampo ("cliente_email", linha);
                 agendamento.cliente.Cpf_cnpj = ExtrairValorDoCampo ("cliente_cpf/cnpj", linha);
                 agendamento.cliente.Telefone = ExtrairValorDoCampo ("cliente_telefone", linha);
@@ -61,10 +64,49 @@ namespace MVC.Repositories {
             return agendamentos;
         }
 
+        public Agendamento ObterPor(ulong id)
+        {
+            var agendamentosTotais = ObterTodos();
+            foreach (var agendamento in agendamentosTotais)
+            {
+                if(id.Equals(agendamento.Id))
+                {
+                    return agendamento;
+                }
+            }
+            return null;
+        }
+
+        public bool Atualizar(Agendamento agendamento)
+        {
+            var agendamentosTotais = File.ReadAllLines(PATH);
+            var agendamentoCSV = PrepararAgendamentoCSV(agendamento);
+            var linhaAgendamento = -1;
+            var resultado = false;
+
+            for (int i = 0; i <agendamentosTotais.Length; i++)
+            {
+                var idConvertido = ulong.Parse(ExtrairValorDoCampo("id", agendamentosTotais[i]));
+                if(agendamento.Id.Equals(idConvertido))
+                {
+                    linhaAgendamento = i;
+                    resultado = true;
+                    break;
+                }
+            }
+
+            if(resultado)
+            {
+                agendamentosTotais[linhaAgendamento] = agendamentoCSV;
+                File.WriteAllLines(PATH, agendamentosTotais);
+            }
+            return resultado;
+        }
+
         private string PrepararAgendamentoCSV (Agendamento agendamento) {
             Cliente c = agendamento.cliente;
 
-            return $"cliente_email={c.Email};cliente_cpf/cnpj={c.Cpf_cnpj};cliente_telefone={c.Telefone};nome_evento={agendamento.NomeEvento};cliente_descricao={agendamento.DescricaoEvento};cliente_pubpriv={agendamento.pubpriv};data_agendamento={agendamento.DataEvento};servicos={agendamento.Servicos};formas_pagamento={agendamento.formasPagamento};preco_total={agendamento.PrecoTotal}";
+            return $"id={agendamento.Id};status_agendamento={agendamento.Status};cliente_email={c.Email};cliente_cpf/cnpj={c.Cpf_cnpj};cliente_telefone={c.Telefone};nome_evento={agendamento.NomeEvento};cliente_descricao={agendamento.DescricaoEvento};cliente_pubpriv={agendamento.pubpriv};data_agendamento={agendamento.DataEvento};servicos={agendamento.Servicos};formas_pagamento={agendamento.formasPagamento};preco_total={agendamento.PrecoTotal}";
         }
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MVC.Enums;
 using MVC.Models;
 using MVC.Repositories;
 using MVC.ViewModels;
@@ -66,6 +67,46 @@ namespace MVC.Controllers
             else
             {
                 return View("Erro", new RespostaViewModel());
+            }
+        }
+
+        public IActionResult Aprovar(ulong id)
+        {
+            var agendamento = agendamentoRepository.ObterPor(id);
+            agendamento.Status = (uint) StatusAgendamento.APROVADO;
+
+            if(agendamentoRepository.Atualizar(agendamento))
+            {
+                return RedirectToAction("Dashboard", "Administrador");
+            }
+            else
+            {
+                return View("Erro", new RespostaViewModel("Não foi possível aprovar este agendamento")
+                {
+                    NomeView = "Dashboard",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+            }
+        }
+
+        public IActionResult Reprovar(ulong id)
+        {
+            var agendamento = agendamentoRepository.ObterPor(id);
+            agendamento.Status = (uint) StatusAgendamento.REPROVADO;
+
+            if(agendamentoRepository.Atualizar(agendamento))
+            {
+                return RedirectToAction("Dashboard", "Administrador");
+            }
+            else
+            {
+                return View("Erro", new RespostaViewModel("Não foi possível reprovar este agendamento")
+                {
+                    NomeView = "Dashboard",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
             }
         }
     }
