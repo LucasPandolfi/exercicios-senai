@@ -12,9 +12,13 @@ namespace MVC.ViewModels
 
         public Cliente Cliente {get;set;}
 
+        public Faq Faq {get;set;}
+
         public AgendamentoViewModel()
         {
             this.Cliente = new Cliente();
+            this.Faq = new Faq();
+            this.NomeUsuario= "Jovem";
         }
     }
 }

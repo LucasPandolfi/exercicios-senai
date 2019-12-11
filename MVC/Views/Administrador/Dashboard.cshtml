@@ -2,25 +2,25 @@
 @model MVC.ViewModels.DashboardViewModel
     <main>
         <h2>Dashboard</h2>
-        <section id="status-pedidos">
+        <section id="status-eventos">
             <h3>Status dos eventos</h3>
             <div id="painel">
-                <div class="box-status-pedidos aprovados">
+                <div class="box-status-eventos aprovados">
                     <h4>Aprovados</h4>
                     <p>@Model.AgendamentosAprovados</p>
                 </div>
-                <div class="box-status-pedidos pendentes">
+                <div class="box-status-eventos pendentes">
                     <h4>Pendentes</h4>
                     <p>@Model.AgendamentosPendentes</p>
                 </div>
-                <div class="box-status-pedidos reprovados">
+                <div class="box-status-eventos reprovados">
                     <h4>Reprovados</h4>
                     <p>@Model.AgendamentosReprovados</p>
                 </div>
             </div>
         </section>
 
-        <section id="lista-pedidos">
+        <section id="lista-eventos">
             <h3>Lista de eventos</h3>
             <table>
                 <thead>

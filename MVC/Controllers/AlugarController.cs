@@ -13,6 +13,7 @@ namespace MVC.Controllers
         AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
         PagamentoRepository pagamentoRepository = new PagamentoRepository();
         ServicosRepository servicosRepository = new ServicosRepository();
+        ClienteRepository clienteRepository = new ClienteRepository();
 
         public IActionResult Alugar()
         {
@@ -26,6 +27,10 @@ namespace MVC.Controllers
             {
                 avm.NomeUsuario = nomeUsuarioLogado;
             }
+
+            var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
+            avm.Cliente = clienteLogado;
+
             avm.NomeView = "Reservar";
             avm.UsuarioEmail = usuarioLogado;
             avm.UsuarioNome = nomeUsuarioLogado; 
@@ -49,7 +54,7 @@ namespace MVC.Controllers
 
             agendamento.cliente = cliente;
 
-            agendamento.DataEvento = DateTime.Now;
+            agendamento.DataEvento = DateTime.Parse(form["dataevento"]);
 
             double precoDefinitivo = servicosRepository.ObterPrecoTotal(agendamento.Servicos);
 

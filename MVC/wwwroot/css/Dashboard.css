@@ -25,26 +25,26 @@ h4 {
     font-family: 'Fredoka One', cursive;
 }
 
-.box-status-pedidos {
+.box-status-eventos {
     width: 30%;
     padding-top: .5em;
     text-align: center;
     justify-content: center;
 }
-.box-status-pedidos > p {
+.box-status-eventos > p {
     font-size: 2em;
     padding: 0.5em 0 0 0;
 }
 
-.box-status-pedidos.reprovados {
+.box-status-eventos.reprovados {
     background-color: #c41d1d;
 }
 
-.box-status-pedidos.aprovados {
+.box-status-eventos.aprovados {
     background-color: #83b314;
 }
 
-.box-status-pedidos.pendentes {
+.box-status-eventos.pendentes {
     background-color: #7d0093;
 }
 

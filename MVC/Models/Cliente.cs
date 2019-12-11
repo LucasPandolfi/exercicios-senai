@@ -17,14 +17,14 @@ namespace MVC.Models
 
         }
 
-        public Cliente(string email, string senha, string cpf, string nome, DateTime dataNascimento, string telefone)
+        public Cliente(string Email, string Senha, string Cpf_cnpj, string Nome, DateTime DataNascimento, string Telefone)
         {
-            this.Email = email;
-            this.Senha = senha;
-            this.Cpf_cnpj = cpf;
-            this.Nome = nome;
-            this.DataNascimento = dataNascimento;
-            this.Telefone = telefone;
+            this.Email = Email;
+            this.Senha = Senha;
+            this.Cpf_cnpj = Cpf_cnpj;
+            this.Nome = Nome;
+            this.DataNascimento = DataNascimento;
+            this.Telefone = Telefone;
         }
     }
 }

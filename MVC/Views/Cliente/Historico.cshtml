@@ -15,8 +15,11 @@
                 <th>Descrição do evento</th>
                 <th>Forma de pagamento</th>
                 <th>Preço</th>
+                <th>Status do evento</th>
             </tr>
         </thead>
+        <p>Status dos eventos</p>
+        <p>0:Pendente, 1:Aprovado, 2:Recusado</p>
         <tbody>
             @foreach( var agendamento in Model.agendamento ) {
                 <tr>
@@ -25,6 +28,7 @@
                     <td>@agendamento.DescricaoEvento</td>
                     <td>@agendamento.formasPagamento</td>
                     <td>@agendamento.PrecoTotal</td>
+                    <td>@agendamento.Status</td>
                 </tr>
             }
         </tbody>

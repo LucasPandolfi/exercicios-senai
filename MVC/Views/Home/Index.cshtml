@@ -1,4 +1,5 @@
-﻿ <main>
+﻿@model MVC.ViewModels.AgendamentoViewModel
+<main>
                    <div class="titulo">
                        <h1>Eventos</h1>
                 </div>
@@ -20,19 +21,19 @@
                 </div>
                 <br><br>
 
-                <form name="formteste" action="home.html" method="POST">
+                <form name="formteste" action='@Url.Action("cadastrarPergunta", "Home")'   method="POST">
                     <div class="titulo"><h2>Deixe sua dúvida!</h2> </div>
 
                     <div class="email">
-                        <input type="email" name="email" placeholder="Informe seu e-mail" required="required">
+                        <input type="email" value="@Model.Faq.Email" name="Email"  placeholder="Informe seu e-mail" required="required">
                     </div>
 
                     <div class="senha">
-                        <input type="password" name="senha" placeholder="Informe sua senha" required="required">
+                        <input type="text" value="@Model.Faq.Nome" name="Nome" placeholder="Informe seu nome" required="required">
                     </div>
 
                     <div class="assunto">
-                        <textarea name="mensagem" placeholder="Deixe sua dúvida"></textarea>
+                        <textarea name="Duvida" placeholder="Deixe sua dúvida"></textarea>
                     </div>
 
                     <div class="enviar">
@@ -69,8 +70,6 @@
                 </div>
 
             </div>
-              
-               <a href='@Url.Action()'>Área do adm</a>
 
                <div id="maps">
                    <div id="local">
