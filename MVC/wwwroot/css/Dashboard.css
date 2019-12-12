@@ -9,45 +9,54 @@ h2 {
 }
 
 h3 {
-    text-align: center;
     padding: 0.5em 0;
     font-size: 1.3em;
-    color: #000000;
+    color: #361a0c;
     text-shadow: 
     -1px -1px 0 #fff,
     1px -1px 0 #fff,
-    -1px  1px 0 #fff,
+   -1px  1px 0 #fff,
     1px  1px 0 #fff;
+    text-align: center;
 }
 
 h4 {
     font-size: 2em;
-    font-family: 'Fredoka One', cursive;
 }
 
-.box-status-eventos {
+.box-status-pedidos {
     width: 30%;
     padding-top: .5em;
     text-align: center;
     justify-content: center;
 }
-.box-status-eventos > p {
+.box-status-pedidos > p {
     font-size: 2em;
     padding: 0.5em 0 0 0;
 }
 
-.box-status-eventos.reprovados {
+.box-status-pedidos.reprovados {
     background-color: #c41d1d;
 }
 
-.box-status-eventos.aprovados {
+.box-status-pedidos.aprovados {
     background-color: #83b314;
 }
 
-.box-status-eventos.pendentes {
+.box-status-pedidos.pendentes {
     background-color: #7d0093;
 }
+#lista-pedidos{
+    padding: 3em;
+}
 
+#lista-aprovados{
+    padding: 4em;
+}
+
+#lista-reprovados{
+    padding: 4em;
+}
 table {
     text-align: center;
     color: black;
@@ -79,6 +88,8 @@ tfoot td {
 thead > tr:first-child > th:last-child {
     padding: 0 .5em;
 }
+
+
 
 @media (max-width: 625px) {
     main {

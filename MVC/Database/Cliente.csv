@@ -1,3 +1,4 @@
 tipo_usuario=0;email=admin@email.com;senha=123456;cpf=00000000000;nome=admin;data_nascimento=01/01/0101 00:00:00;telefone=12300121510
 tipo_usuario=1;email=lucasdatealive@gmail.com;senha=123456;cpf=12312312332;nome=Lucas;data_nascimento=07/01/2001 00:00:00;telefone=11954548548
 tipo_usuario=1;email=yumi@email.com;senha=123456;cpf=12324412332;nome=Yumi;data_nascimento=21/05/1999 00:00:00;telefone=11954548548
+tipo_usuario=1;email=Ai@email.com;senha=123456;cpf=12312312332;nome=Ai-chan;data_nascimento=27/09/2000 00:00:00;telefone=11954548548

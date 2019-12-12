@@ -2986,8 +2986,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\50345891848\\Desktop\\exercicios-senai\\MVC\\Views\\Administrador\\Aprovado.cshtml",
+      "TargetPath": "Views\\Administrador\\Aprovado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\50345891848\\Desktop\\exercicios-senai\\MVC\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\50345891848\\Desktop\\exercicios-senai\\MVC\\Views\\Administrador\\Reprovado.cshtml",
+      "TargetPath": "Views\\Administrador\\Reprovado.cshtml",
       "FileKind": "mvc"
     },
     {

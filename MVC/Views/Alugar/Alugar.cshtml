@@ -1,11 +1,12 @@
-<link href="~/css/Alugar.css" rel="stylesheet" type="text/css">
 @model MVC.ViewModels.AgendamentoViewModel
+
+<link href="~/css/Alugar.css" rel="stylesheet" type="text/css">
 <main>
     <h1>Alugar</h1>
             <h2>Monte seu evento @Model.NomeUsuario!</h2>
 
 
-    <form name="formteste" action= '@Url.Action("Registrar","Alugar")' method="POST">
+        <form name="formteste" action= '@Url.Action("Registrar","Alugar")' method="POST"> -->
         <div class="triste">
 
         <div class="teste">
@@ -27,6 +28,10 @@
         <div class="teste">
             <textarea name="descricao" placeholder="Descreva seu evento" maxlength="500" minlength="20"></textarea>
         </div>
+        <!-- <div> -->
+                <!-- <label for="foto-perfil-upload">Foto</label> -->
+                <!-- <input id="foto-perfil-upload" type="file" accept="image/*" name="foto-perfil" /> -->
+        <!-- </div> -->
     </div>
         
 

@@ -14,6 +14,7 @@ namespace MVC.Controllers
     public class HomeController : AbstractController
     {
         FaqRepository faqRepository = new FaqRepository();
+        AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
         ClienteRepository clienteRepository = new ClienteRepository();
         public IActionResult Index()
         {
@@ -25,22 +26,11 @@ namespace MVC.Controllers
             });
         }
 
-        // PRECISO TERMINAR O FAQ. CREIO QUE ESTOU USANDO E CRIANDO UM MODEL DESNECESSARIO. 
-        public IActionResult Teste()
-        {
-            AgendamentoViewModel faq = new AgendamentoViewModel();
-            var usuarioLogado = ObterUsuarioSession();
-            Cliente cliente = new Cliente();
-
-            faq.Cliente = clienteRepository.ObterPor(usuarioLogado);     
-            return View(faq);
-        }
-
         public IActionResult cadastrarPergunta(IFormCollection form)
         {
             try
             {
-                Faq faq = new Faq(form["Email"], form["Nome"], form["Duvida"]);
+                Faq faq = new Faq(form["email"], form["Nome"], form["Duvida"]);
 
                 faqRepository.Inserir(faq);
 

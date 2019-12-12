@@ -54,6 +54,7 @@ namespace MVC.Repositories {
                 agendamento.cliente.Telefone = ExtrairValorDoCampo ("cliente_telefone", linha);
                 agendamento.NomeEvento = ExtrairValorDoCampo ("nome_evento", linha);
                 agendamento.DescricaoEvento = ExtrairValorDoCampo ("cliente_descricao", linha);
+                /* agendamento.ImagemEvento = ExtrairValorDoCampo("url_Fotos", linha);*/
                 agendamento.pubpriv = ExtrairValorDoCampo ("cliente_pubpriv", linha);
                 agendamento.DataEvento = DateTime.Parse (ExtrairValorDoCampo ("data_agendamento", linha));
                 agendamento.Servicos = ExtrairValorDoCampo ("servicos", linha);

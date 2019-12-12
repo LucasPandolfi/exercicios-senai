@@ -1,4 +1,6 @@
 using System;
+using System.IO;
+using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MVC.Enums;
@@ -11,6 +13,7 @@ namespace MVC.Controllers
     public class AlugarController : AbstractController
     {
         AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
+        /* Agendamento agendamento = new Agendamento();*/
         PagamentoRepository pagamentoRepository = new PagamentoRepository();
         ServicosRepository servicosRepository = new ServicosRepository();
         ClienteRepository clienteRepository = new ClienteRepository();
@@ -26,11 +29,14 @@ namespace MVC.Controllers
             if(!string.IsNullOrEmpty(nomeUsuarioLogado))
             {
                 avm.NomeUsuario = nomeUsuarioLogado;
+                var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
+                avm.Cliente = clienteLogado;
             }
-
-            var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
-            avm.Cliente = clienteLogado;
-
+            else
+            {
+                return View (avm);
+            }
+            
             avm.NomeView = "Reservar";
             avm.UsuarioEmail = usuarioLogado;
             avm.UsuarioNome = nomeUsuarioLogado; 
@@ -60,6 +66,12 @@ namespace MVC.Controllers
 
             agendamento.PrecoTotal = precoDefinitivo;
 
+            /* var urlFoto = $"wwwroot\\{PATH_FOTOS}";
+
+            GravarFoto(form.Files, urlFoto);
+
+            agendamento.ImagemEvento = urlFoto;*/
+
             if(agendamentoRepository.Inserir(agendamento))
             { 
             return View("Sucesso", new RespostaViewModel() 
@@ -74,6 +86,30 @@ namespace MVC.Controllers
                 return View("Erro", new RespostaViewModel());
             }
         }
+
+        /* public async void GravarFoto(IFormFileCollection arquivos, string urlFoto) 
+        { 
+            foreach (var foto in arquivos)
+            {   
+                System.IO.Directory.CreateDirectory(urlFoto).Create();
+                var file = System.IO.File.Create(urlFoto + foto.FileName);
+                await foto.CopyToAsync(file);
+                file.Close();
+            }
+        }*/
+
+        /* public IActionResult TratarUrl()
+        {
+            var urlFoto = Directory.GetFiles(agendamento.ImagemEvento).FirstOrDefault();
+            var urlRelativa = urlFoto.Replace(Directory.GetCurrentDirectory(), "").Replace("\\","/").Replace("wwwroot", "");
+
+            return View("Sucesso", new RespostaViewModel() 
+            {
+                NomeView = "Agendamento",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession(),
+            });
+        }*/
 
         public IActionResult Aprovar(ulong id)
         {
@@ -95,6 +131,65 @@ namespace MVC.Controllers
             }
         }
 
+        public IActionResult Pendente(ulong id)
+        {
+            var agendamento = agendamentoRepository.ObterPor(id);
+            agendamento.Status = (uint) StatusAgendamento.PENDENTE;
+
+            if(agendamentoRepository.Atualizar(agendamento))
+            {
+                return RedirectToAction("Dashboard", "Administrador");
+            }
+            else
+            {
+                return View("Erro", new RespostaViewModel("Não foi possível aprovar este evento")
+                {
+                    NomeView = "Dashboard",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+            }
+        }
+
+        public IActionResult PendenteAprovado(ulong id)
+        {
+            var agendamento = agendamentoRepository.ObterPor(id);
+            agendamento.Status = (uint) StatusAgendamento.PENDENTE;
+
+            if(agendamentoRepository.Atualizar(agendamento))
+            {
+                return RedirectToAction("Aprovado", "Administrador");
+            }
+            else
+            {
+                return View("Erro", new RespostaViewModel("Não foi possível aprovar este evento")
+                {
+                    NomeView = "Dashboard",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+            }
+        }
+
+        public IActionResult PendenteReprovado(ulong id)
+        {
+            var agendamento = agendamentoRepository.ObterPor(id);
+            agendamento.Status = (uint) StatusAgendamento.PENDENTE;
+
+            if(agendamentoRepository.Atualizar(agendamento))
+            {
+                return RedirectToAction("Reprovado", "Administrador");
+            }
+            else
+            {
+                return View("Erro", new RespostaViewModel("Não foi possível aprovar este evento")
+                {
+                    NomeView = "Dashboard",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+            }
+        }
         public IActionResult Reprovar(ulong id)
         {
             var agendamento = agendamentoRepository.ObterPor(id);

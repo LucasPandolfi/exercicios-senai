@@ -29,9 +29,7 @@
             <table>
                 <thead>
                     <tr>
-                        <th rowspan="2">Email</th>
                         <th rowspan="2">Nome do evento</th>
-                        <th rowspan="2">Evento</th>
                         <th rowspan="2">Data Evento</th>
                         <th rowspan="2">Informações</th>
                         <th rowspan="2">Forma pagamento</th>
@@ -51,16 +49,13 @@
                     @foreach(var agendamento in Model.Agendamentos )
                     {
                         <tr>
-                            <td>@agendamento.cliente.Email</td>
                             <td>@agendamento.NomeEvento</td>
-                            <td>@agendamento.pubpriv</td>
                             <td>@agendamento.DataEvento</td>
                             <td>@agendamento.DescricaoEvento</td>
                             <td>@agendamento.formasPagamento</td>
                             <td>@agendamento.Servicos</td>
                             <td>@agendamento.PrecoTotal</td>
-                            <td><a href='@Url.Action("Aprovar", "Alugar", new {id = @agendamento.Id})'><i class="fas fa-check"></i></a></td>
-                            <td><a href='@Url.Action("Reprovar", "Alugar", new {id = @agendamento.Id})'><i class="fas fa-times"></i></a></td>
+                            <td><a href='@Url.Action("PendenteReprovado", "Alugar", new {id = @agendamento.Id})'><i class="fas fa-times"></i></a></td>
                         </tr>
                     }
                 </tbody>

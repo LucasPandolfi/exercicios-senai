@@ -142,3 +142,5 @@ C:\Users\lucas\Documents\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\View
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Historico.g.cshtml.cs
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Login.g.cshtml.cs
 C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Administrador\Dashboard.g.cshtml.cs
+C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Administrador\Aprovado.g.cshtml.cs
+C:\Users\50345891848\Desktop\exercicios-senai\MVC\obj\Debug\netcoreapp2.2\Razor\Views\Administrador\Reprovado.g.cshtml.cs

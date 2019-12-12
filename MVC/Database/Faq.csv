@@ -1,11 +1,2 @@
-var usuarioLogado = ObterUsuarioSession();
-            var nomeUsuarioLogado = ObterUsuarioNomeSession();
-            if(!string.IsNullOrEmpty(nomeUsuarioLogado))
-            {
-                faq.NomeUsuario = nomeUsuarioLogado;
-            }
-            var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
-            faq.Cliente = clienteLogado;
-
-            faq.UsuarioEmail = usuarioLogado;
-            faq.UsuarioNome = nomeUsuarioLogado; 
+Email=yumi@email.com;Nome=Yumi;Duvida=fghxshggffghfjdfjfdx
+Email=lucasdatealive@gmail.com;Nome=Lucas;Duvida=dsgsdfszddzdz

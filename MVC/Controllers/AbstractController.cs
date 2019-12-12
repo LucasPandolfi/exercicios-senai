@@ -8,6 +8,7 @@ namespace MVC.Controllers
         protected const string SESSION_CLIENTE_EMAIL = "email_cliente";//Criamos o abstract para fazer uma ponte entre o pedidocontroller e o clientecontroller
         protected const string SESSION_CLIENTE_NOME= "nome_cliente";
         protected const string SESSION_CLIENTE_TIPO= "nome_tipo";
+        protected const string PATH_FOTOS = "images\\fotos";
 
         protected string ObterUsuarioSession()
         {

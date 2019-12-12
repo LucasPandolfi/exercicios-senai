@@ -12,8 +12,9 @@ namespace MVC.Models
         public string Telefone {get;set;}
         public string NomeEvento {get;set;}
         public string DescricaoEvento {get;set;}
-        public string Servicos {get;set;}
         
+        /* public string ImagemEvento {get;set;}*/
+        public string Servicos {get;set;}
         public string pubpriv {get;set;}
         public DateTime DataEvento {get;set;}
         public string formasPagamento {get;set;}
